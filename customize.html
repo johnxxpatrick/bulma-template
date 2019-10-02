@@ -1,0 +1,3716 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Mirrored from bulkitv2.cssninja.io/one-pager-1/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Sep 2019 08:55:20 GMT -->
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" href="https://bulma.io/css/bulma-docs.min.css?v=201909191709">
+    <link rel="canonical" href="form.html">
+    <!-- Shared social media -->
+    <meta property="og:title" content="Form controls">
+    <meta name="twitter:title" content="Form controls">
+    <meta property="og:description" content="The indispensable form controls, designed for maximum clarity">
+    <meta name="twitter:description" content="The indispensable form controls, designed for maximum clarity">
+    <title> Padeian :: Bulma Template</title>
+    <!--Core CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bulma.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/core.css">
+    <link rel="stylesheet" href="assets/css/core-v2.css">
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+    <div class="pageloader"></div>
+    <div class="infraloader is-active"></div>
+    <!-- Side navigation -->
+    <div class="side-navigation-menu">
+      <!-- Navigation menu -->
+      <div id="demo-pages" class="navigation-menu-wrapper animated preFadeInRight fadeInRight">
+        <!-- Navigation Header -->
+        <div class="navigation-menu-header">
+          <span>Bulma Templates</span>
+          <a class="ml-auto hamburger-btn navigation-close" href="javascript:void(0);">
+          <span class="menu-toggle">
+          <span class="icon-box-toggle">
+          <span class="rotate">
+          <i class="icon-line-top"></i>
+          <i class="icon-line-center"></i>
+          <i class="icon-line-bottom"></i>
+          </span>
+          </span>
+          </span>
+          </a>
+        </div>
+        <!-- Navigation Body -->
+        <ul class="navigation-menu">
+          <li class="has-children">
+            <a class="parent-link" href="#"><span class="material-icons">view_quilt</span>Overview</a>
+            <ul>
+              <li><a class="is-submenu" href="overview.html#overview-start">Start</a></li>
+              <li><a class="is-submenu" href="overview.html#overview-classes">Classes</a></li>
+              <li><a class="is-submenu" href="overview.html#overview-modularity">Modularity</a></li>
+              <li><a class="is-submenu" href="overview.html#overview-responsiveness">Responsiveness</a></li>
+              <li><a class="is-submenu" href="overview.html#overview-colors">Colors</a></li>
+              <li><a class="is-submenu" href="overview.html#overview-functions">Functions</a></li>
+              <li><a class="is-submenu" href="overview.html#overview-mixins">Mixins</a></li>
+            </ul>
+          </li>
+          <li class="has-children">
+            <a class="parent-link" href="#"><span class="material-icons">view_quilt</span>Customize</a>
+            <ul>
+              <li><a class="is-submenu" href="customize.html#customize-concepts">Concepts</a></li>
+              <li><a class="is-submenu" href="customize.html#customize-variable">Variable</a></li>
+              <li><a class="is-submenu" href="customize.html#customize-node-sass">With node-sass</a></li>
+              <li><a class="is-submenu" href="customize.html#customize-sass-cli">With Sass CLI</a></li>
+              <li><a class="is-submenu" href="customize.html#customize-with-webpack">With webpack</a></li>
+            </ul>
+          </li>
+          <li class="has-children">
+            <a class="parent-link" href="#"><span class="material-icons">view_quilt</span>Modifiers</a>
+            <ul>
+              <li><a class="is-submenu" href="modifiers.html#modifiers-syntax">Syntax</a></li>
+              <li><a class="is-submenu" href="modifiers.html#modifiers-helpers">Helpers</a></li>
+              <li><a class="is-submenu" href="modifiers.html#modifiers-responsive">Responsive Helpers</a></li>
+              <li><a class="is-submenu" href="modifiers.html#modifiers-color">Color Helpers</a></li>
+              <li><a class="is-submenu" href="modifiers.html#modifiers-typography">Typography Helpers</a></li>
+            </ul>
+          </li>
+          <li class="has-children">
+            <a class="parent-link" href="#"><span class="material-icons">view_quilt</span>Columns</a>
+            <ul>
+              <li><a class="is-submenu" href="columns.html#columns-basics">Basics</a></li>
+              <li><a class="is-submenu" href="columns.html#columns-sizes">Sizes</a></li>
+              <li><a class="is-submenu" href="columns.html#columns-responsiveness">Responsiveness</a></li>
+              <li><a class="is-submenu" href="columns.html#columns-nesting">Nesting</a></li>
+              <li><a class="is-submenu" href="columns.html#columns-gap">Gap</a></li>
+              <li><a class="is-submenu" href="columns.html#columns-options">Options</a></li>
+            </ul>
+          </li>
+          <li class="has-children">
+            <a class="parent-link" href="#"><span class="material-icons">view_quilt</span>Layout</a>
+            <ul>
+              <li><a class="is-submenu" href="layout.html#lyt-container">Container</a></li>
+              <li><a class="is-submenu" href="layout.html#lyt-level">Level</a></li>
+              <li><a class="is-submenu" href="layout.html#lyt-medobj">Media Object</a></li>
+              <li><a class="is-submenu" href="layout.html#lyt-hero">Hero</a></li>
+              <li><a class="is-submenu" href="layout.html#lyt-section">Section</a></li>
+              <li><a class="is-submenu" href="layout.html#lyt-footer">Footer</a></li>
+              <li><a class="is-submenu" href="layout.html#lyt-tiles">Tiles</a></li>
+            </ul>
+          </li>
+          <li class="has-children">
+            <a class="parent-link" href="#"><span class="material-icons">view_quilt</span>Form</a>
+            <ul>
+              <li><a class="is-submenu" href="form.html#form-general">General</a></li>
+              <li><a class="is-submenu" href="form.html#form-input">Input</a></li>
+              <li><a class="is-submenu" href="form.html#form-textarea">Textarea</a></li>
+              <li><a class="is-submenu" href="form.html#form-select">Select</a></li>
+              <li><a class="is-submenu" href="form.html#form-checkbox">Checkbox</a></li>
+              <li><a class="is-submenu" href="form.html#form-radio">Radio</a></li>
+              <li><a class="is-submenu" href="form.html#form-file">File</a></li>
+            </ul>
+          </li>
+          <li class="has-children">
+            <a class="parent-link" href="#"><span class="material-icons">view_quilt</span>Elements</a>
+            <ul>
+              <li><a class="is-submenu" href="elements.html#elements-box">Box</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-button">Button</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-content">Content</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-delete">Delete</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-icon">Icon</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-image">Image</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-notification">Notification</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-progressbar">Progress bars</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-table">Table</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-tag">Tag</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-title">Title</a></li>
+            </ul>
+          </li>
+          <li class="has-children">
+            <a class="parent-link" href="#"><span class="material-icons">view_quilt</span>Components</a>
+            <ul>
+              <li><a class="is-submenu" href="components.html#components-breadcrumb">Breadcrumb</a></li>
+              <li><a class="is-submenu" href="components.html#components-card">Card</a></li>
+              <li><a class="is-submenu" href="components.html#components-dropdown">Dropdown</a></li>
+              <li><a class="is-submenu" href="components.html#components-menu">Menu</a></li>
+              <li><a class="is-submenu" href="components.html#components-message">Message</a></li>
+              <li><a class="is-submenu" href="components.html#components-modal">Modal</a></li>
+              <li><a class="is-submenu" href="components.html#components-navbar">Navbar</a></li>
+              <li><a class="is-submenu" href="components.html#components-pagination">Pagination</a></li>
+              <li><a class="is-submenu" href="components.html#components-panel">Panel</a></li>
+              <li><a class="is-submenu" href="components.html#components-tabs">Tabs</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- /Navigation menu -->
+    </div>
+    <!-- /Side navigation -->
+    <nav class="navbar is-transparent is-fixed-top is-faded">
+      <div class="container">
+        <div class="navbar-brand">
+          <!-- Sidebar Trigger -->
+          <a id="navigation-trigger" class="navbar-item hamburger-btn" href="javascript:void(0);">
+          <span class="menu-toggle">
+          <span class="icon-box-toggle">
+          <span class="rotate">
+          <i class="icon-line-top"></i>
+          <i class="icon-line-center"></i>
+          <i class="icon-line-bottom"></i>
+          </span>
+          </span>
+          </span>
+          </a>
+          <a class="navbar-item" href="index.html">
+          <img class="light-logo" src="assets/images/logo/logo-white.png" width="110" height="100" alt="">
+          <img class="dark-logo is-hidden" src="assets/images/logo/logo-dark.png" width="110" height="100" alt="">
+          </a>
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div class="navbar-menu">
+          <div class="navbar-start">
+            <a href="#customize-concepts" class="navbar-item has-hover">
+            Concepts
+            </a> 
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link navbar-item has-hover" href="#customize-variables"> Variables</a>
+              <div class="navbar-dropdown is-boxed is-medium">
+                <!-- Dropdown item -->
+                <a class="navbar-item is-menu" href="#initial-variables">
+                <span>Initial Variables</span>
+                </a>
+                <a class="navbar-item is-menu" href="#derived-variables">
+                <span>Derived Variables</span>
+                </a>
+                <a class="navbar-item is-menu" href="#generic-variables">
+                <span>Generic Variables</span>
+                </a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link navbar-item has-hover" href="#customize-node-sass"> With node-sass</a>
+              <div class="navbar-dropdown is-boxed is-medium">
+                <!-- Dropdown item -->
+                <a class="navbar-item is-menu" href="#node-sass-create">
+                <span>Create a package.json file</span>
+                </a>
+                <a class="navbar-item is-menu" href="#node-sass-dependencies">
+                <span>Install the dev dependencies</span>
+                </a>
+                <a class="navbar-item is-menu" href="#node-sass-file">
+                <span>Create a Sass file</span>
+                </a>
+                <a class="navbar-item is-menu" href="#node-sass-page">
+                <span>Create an HTML page</span>
+                </a>
+                <a class="navbar-item is-menu" href="#node-sass-scripts">
+                <span>Add node scripts to build your CSS</span>
+                </a>
+                <a class="navbar-item is-menu" href="#node-sass-bulma">
+                <span>Add your own Bulma styles</span>
+                </a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link navbar-item has-hover" href="#customize-sass-cli"> With Sass CLI</a>
+              <div class="navbar-dropdown is-boxed is-medium">
+                <!-- Dropdown item -->
+                <a class="navbar-item is-menu" href="#sass-cli-install">
+                <span>Install Sass</span>
+                </a>
+                <a class="navbar-item is-menu" href="#sass-cli-download">
+                <span>Download Bulma</span>
+                </a>
+                <a class="navbar-item is-menu" href="#sass-cli-create">
+                <span>Create a Sass file</span>
+                </a>
+                <a class="navbar-item is-menu" href="#sass-cli-page">
+                <span>Create an HTML page</span>
+                </a>
+                <a class="navbar-item is-menu" href="#sass-cli-file">
+                <span>Build the CSS file</span>
+                </a>
+                <a class="navbar-item is-menu" href="#sass-cli-bulma">
+                <span>Add your own Bulma styles</span>
+                </a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link navbar-item has-hover" href="#customize-with-webpack"> With webpack</a>
+              <div class="navbar-dropdown is-boxed is-medium">
+                <!-- Dropdown item -->
+                <a class="navbar-item is-menu" href="#with-webpack-create">
+                <span>Create a package.json file</span>
+                </a>
+                <a class="navbar-item is-menu" href="#with-webpack-dependencies">
+                <span>Install the dev dependencies</span>
+                </a>
+                <a class="navbar-item is-menu" href="#with-webpack-webpack3">
+                <span>Create a webpack config (Webpack <= 3)</span>
+                </a>
+                <a class="navbar-item is-menu" href="#with-webpack-webpack4">
+                <span>Create a webpack config (Webpack 4)</span>
+                </a>
+                <a class="navbar-item is-menu" href="#with-webpack-folder">
+                <span>Create a src folder</span>
+                </a>
+                <a class="navbar-item is-menu" href="#with-webpack-file">
+                <span>Create a Sass file</span>
+                </a>
+                <a class="navbar-item is-menu" href="#with-webpack-dist">
+                <span>Create a dist folder</span>
+                </a>
+                <a class="navbar-item is-menu" href="#with-webpack-page">
+                <span>Create an HTML page</span>
+                </a>
+                <a class="navbar-item is-menu" href="#with-webpack-scripts">
+                <span>Add node scripts to build your bundle</span>
+                </a>
+                <a class="navbar-item is-menu" href="#with-webpack-bulma">
+                <span>Add your own Bulma styles</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <div class="hero is-large">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns has-text-centered">
+            <!-- Caption -->
+            <div class="column is-8 is-offset-2 is-hero-caption">
+              <h1 class="title is-1 is-light">
+                <span id="landing-title">CUSTOMIZE</span>
+              </h1>
+              <h2 class="subtitle is-5 is-light">
+                Create your <b>own theme</b> with a simple set of <b>variables</b>
+              </h2>
+              <div class="button-wrap">
+                <a href="#form-general" class="button cta-button accent-button is-raised is-rounded">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hero Shape -->
+      <div class="hero-shape is-4v" alt=""></div>
+    </div>
+    <!-- Concepts section -->
+    <section id="customize-concepts" class="section is-medium">
+      <div class="container">
+        <!-- Concepts Title -->
+        <div class="section-title-wrapper">
+          <div class="bg-number">1</div>
+          <h2 class="title section-title has-text-centered dark-text">CONCEPTS</h2>
+          <div class="subtitle has-text-centered is-tablet-padded">What makes Bulma <b>customizable</b></div>
+        </div>
+        <!-- /Concepts Title -->
+        <div class="content">
+          <p>
+            Bulma is highly customizable thanks to <strong>415 Sass variables</strong> living across <strong>28 files</strong>.
+          </p>
+          <p>
+            These variables exist at 4 levels:
+          </p>
+          <ul>
+            <li>
+              <strong><a href="customize.html#initial-variables">initial variables</a></strong>: global variables with <strong>literal</strong> values
+            </li>
+            <li>
+              <strong><a href="customize.html#derived-variables">derived variables</a></strong>: global variables with values that reference other variables, or are computed
+            </li>
+            <li>
+              <strong><a href="customize.html#generic-variables">generic variables</a></strong>: for the HTML elements which carry no CSS class
+            </li>
+            <li>
+              <strong>element/component variables</strong>: variables that are specific to a Bulma element/component
+            </li>
+          </ul>
+          <p>
+            Since these variables carry the <code>!default</code> flag, they can be assigned a <strong>new value</strong> either before or after having been imported.
+          </p>
+        </div>
+        <hr class="hr" style="margin-bottom: 0;">
+        <h3 id="strategy" class="title is-4 is-spaced bd-anchor-title">
+          <span class="bd-anchor-name">
+          Strategy
+          </span>
+          <a class="bd-anchor-link" href="#strategy">
+          #
+          </a>
+        </h3>
+        <div class="content">
+          <p>
+            To customize Bulma, you will need to:
+          </p>
+          <ul>
+            <li>
+              <strong>install</strong> (or download) Bulma
+            </li>
+            <li>
+              have a working <strong>Sass setup</strong>
+            </li>
+            <li>
+              create your own <code>.scss</code> or <code>.sass</code> file
+            </li>
+          </ul>
+          <p>
+            This can be achieved with:
+          </p>
+          <ul>
+            <li>
+              with <a href="customize.html#customize-node-sass">node-sass</a>
+            </li>
+            <li>
+              with the <a href="customize.html#customize-sass-cli">Sass CLI</a>
+            </li>
+            <li>
+              with <a href="customize.html#customize-webpack">webpack</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- /Concepts section -->
+    <!-- Variables section -->
+    <section id="customize-variables" class="section is-medium is-grey">
+      <div class="container">
+        <!-- Variables Title -->
+        <div class="section-title-wrapper">
+          <div class="bg-number">2</div>
+          <h2 class="title section-title has-text-centered dark-text">VARIABLES</h2>
+          <div class="subtitle has-text-centered is-tablet-padded">See how Bulma uses <b>Sass variables</b> to allow easy customization</div>
+        </div>
+        <!-- /Variables Title -->
+        <div class="content">
+          <p>Bulma has <strong>two</strong> variable files divided into <strong>4</strong> sections:</p>
+          <ol>
+            <li>
+              <strong>Initial variables</strong>: where you define variables by <strong>literal value</strong>, like:
+              <ul>
+                <li><strong>colors</strong>: <code>$blue: hsl(217, 71%,  53%)</code></li>
+                <li><strong>font sizes</strong>: <code>$size-1: 3rem</code></li>
+                <li><strong>dimensions</strong>: <code>$gap: 32px</code></li>
+                <li><strong>other values</strong>: <code>$easing: ease-out</code> or <code>$radius-large: 6px</code></li>
+              </ul>
+            </li>
+            <li>
+              <strong>Derived variables</strong> where variables are <strong>calculated</strong> from the values set in the previous file. For example, you can have:
+              <ul>
+                <li>
+                  <strong>Primary colors</strong> derived from the initial variables:
+                  <ul>
+                    <li><code>$primary: $turquoise</code></li>
+                    <li><code>$link: $blue</code></li>
+                    <li><code>$info: $cyan</code></li>
+                    <li><code>$success: $green</code></li>
+                    <li><code>$warning: $yellow</code></li>
+                    <li><code>$danger: $red</code></li>
+                    <li><code>$dark: $grey-darker</code></li>
+                    <li><code>$text: $grey-dark</code></li>
+                  </ul>
+                </li>
+                <li><code>$background: $white-ter</code>: a general background color</li>
+                <li><code>$link: $blue</code>: the links use the primary color</li>
+                <li><code>$family-primary: $family-sans-serif</code>: the primary font family is the sans-serif one</li>
+                <li>
+                  <strong>Lists and maps</strong> which are collections of already defined variables:
+                  <ul>
+                    <li><code>$colors: mergeColorMaps(("white": ($white, $black), "black": ($black, $white), "light": ($light, $light-invert), "dark": ($dark, $dark-invert), "primary": ($primary, $primary-invert), "link": ($link, $link-invert), "info": ($info, $info-invert), "success": ($success, $success-invert), "warning": ($warning, $warning-invert), "danger": ($danger, $danger-invert)), $custom-colors)</code></li>
+                    <li><code>$shades: mergeColorMaps(("black-bis": $black-bis, "black-ter": $black-ter, "grey-darker": $grey-darker, "grey-dark": $grey-dark, "grey": $grey, "grey-light": $grey-light, "grey-lighter": $grey-lighter, "white-ter": $white-ter, "white-bis": $white-bis), $custom-shades)</code></li>
+                    <li><code>$sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7</code></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ol>
+          <p>
+            To <strong>override</strong> any of these variables, just set them <em>before</em> importing Bulma.
+          </p>
+        </div>
+        <hr class="hr" style="margin-bottom: 0;">
+        <h3 id="initial-variables" class="title is-4 is-spaced bd-anchor-title">
+          <span class="bd-anchor-name">
+          Initial variables
+          </span>
+          <a class="bd-anchor-link" href="#initial-variables">
+          #
+          </a>
+        </h3>
+        <div class="content">
+          <p>
+            These are <a href="https://github.com/jgthms/bulma/blob/master/sass/utilities/initial-variables.sass" target="_blank" rel="nofollow">initial variables</a> with a <strong>literal</strong> value.
+          </p>
+        </div>
+        <div class="table-container">
+          <table class="table is-bordered">
+            <tbody>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$black</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 4%);"></span>
+                  <code>hsl(0, 0%, 4%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$black-bis</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 7%);"></span>
+                  <code>hsl(0, 0%, 7%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$black-ter</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 14%);"></span>
+                  <code>hsl(0, 0%, 14%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$grey-darker</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 21%);"></span>
+                  <code>hsl(0, 0%, 21%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$grey-dark</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 29%);"></span>
+                  <code>hsl(0, 0%, 29%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$grey</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 48%);"></span>
+                  <code>hsl(0, 0%, 48%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$grey-light</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 71%);"></span>
+                  <code>hsl(0, 0%, 71%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$grey-lighter</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 86%);"></span>
+                  <code>hsl(0, 0%, 86%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$white-ter</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 96%);"></span>
+                  <code>hsl(0, 0%, 96%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$white-bis</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 98%);"></span>
+                  <code>hsl(0, 0%, 98%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$white</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 100%);"></span>
+                  <code>hsl(0, 0%, 100%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$orange</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(14,  100%, 53%);"></span>
+                  <code>hsl(14,  100%, 53%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$yellow</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(48,  100%, 67%);"></span>
+                  <code>hsl(48,  100%, 67%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$green</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(141, 71%,  48%);"></span>
+                  <code>hsl(141, 71%,  48%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$turquoise</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(171, 100%, 41%);"></span>
+                  <code>hsl(171, 100%, 41%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$cyan</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(204, 86%,  53%);"></span>
+                  <code>hsl(204, 86%,  53%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$blue</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(217, 71%,  53%);"></span>
+                  <code>hsl(217, 71%,  53%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$purple</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(271, 100%, 71%);"></span>
+                  <code>hsl(271, 100%, 71%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$red</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(348, 100%, 61%);"></span>
+                  <code>hsl(348, 100%, 61%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$family-sans-serif</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  font-family
+                  </small>
+                </td>
+                <td>
+                  <code>BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$family-monospace</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  font-family
+                  </small>
+                </td>
+                <td>
+                  <code>monospace</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$render-mode</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  keyword
+                  </small>
+                </td>
+                <td>
+                  <code>optimizeLegibility</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$size-1</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>3rem</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$size-2</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>2.5rem</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$size-3</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>2rem</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$size-4</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>1.5rem</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$size-5</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>1.25rem</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$size-6</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>1rem</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$size-7</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>0.75rem</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$weight-light</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  font-weight
+                  </small>
+                </td>
+                <td>
+                  <code>300</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$weight-normal</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  font-weight
+                  </small>
+                </td>
+                <td>
+                  <code>400</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$weight-medium</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  font-weight
+                  </small>
+                </td>
+                <td>
+                  <code>500</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$weight-semibold</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  font-weight
+                  </small>
+                </td>
+                <td>
+                  <code>600</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$weight-bold</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  font-weight
+                  </small>
+                </td>
+                <td>
+                  <code>700</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$block-spacing</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>1.5rem</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$gap</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>32px</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$tablet</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>769px</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$desktop</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  computed
+                  </small>
+                </td>
+                <td>
+                  <code>960px + (2 * $gap)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$widescreen</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  computed
+                  </small>
+                </td>
+                <td>
+                  <code>1152px + (2 * $gap)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$widescreen-enabled</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  boolean
+                  </small>
+                </td>
+                <td>
+                  <code>true</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$fullhd</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  computed
+                  </small>
+                </td>
+                <td>
+                  <code>1344px + (2 * $gap)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$fullhd-enabled</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  boolean
+                  </small>
+                </td>
+                <td>
+                  <code>true</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$easing</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  keyword
+                  </small>
+                </td>
+                <td>
+                  <code>ease-out</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$radius-small</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>2px</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$radius</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>4px</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$radius-large</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>6px</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$radius-rounded</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>290486px</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$speed</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  duration
+                  </small>
+                </td>
+                <td>
+                  <code>86ms</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$variable-columns</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  boolean
+                  </small>
+                </td>
+                <td>
+                  <code>true</code>
+                </td>
+              </tr>
+            <tbody>
+          </table>
+        </div>
+        <hr class="hr" style="margin-bottom: 0;">
+        <h3 id="derived-variables" class="title is-4 is-spaced bd-anchor-title">
+          <span class="bd-anchor-name">
+          Derived variables
+          </span>
+          <a class="bd-anchor-link" href="#derived-variables">
+          #
+          </a>
+        </h3>
+        <div class="content">
+          <p>These are <a href="https://github.com/jgthms/bulma/blob/master/sass/utilities/derived-variables.sass" target="_blank" rel="nofollow">variables</a> with a value that <strong>references</strong> another variable.</p>
+        </div>
+        <div class="table-container">
+          <table class="table is-bordered">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Default value</th>
+                <th>Computed value</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Default value</th>
+                <th>Computed value</th>
+              </tr>
+            </tfoot>
+            <tbody>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$primary</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$turquoise</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(171, 100%, 41%);"></span>
+                  <code>hsl(171, 100%, 41%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$info</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$cyan</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(204, 86%,  53%);"></span>
+                  <code>hsl(204, 86%,  53%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$success</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$green</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(141, 71%,  48%);"></span>
+                  <code>hsl(141, 71%,  48%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$warning</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$yellow</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(48,  100%, 67%);"></span>
+                  <code>hsl(48,  100%, 67%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$danger</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$red</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(348, 100%, 61%);"></span>
+                  <code>hsl(348, 100%, 61%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$light</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$white-ter</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 96%);"></span>
+                  <code>hsl(0, 0%, 96%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$dark</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$grey-darker</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 21%);"></span>
+                  <code>hsl(0, 0%, 21%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$orange-invert</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>findColorInvert($orange)</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: #fff;"></span>
+                  <code>#fff</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$yellow-invert</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>findColorInvert($yellow)</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: rgba(0, 0, 0, 0.7);"></span>
+                  <code>rgba(0, 0, 0, 0.7)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$green-invert</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>findColorInvert($green)</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: #fff;"></span>
+                  <code>#fff</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$turquoise-invert</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>findColorInvert($turquoise)</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: #fff;"></span>
+                  <code>#fff</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$cyan-invert</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>findColorInvert($cyan)</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: #fff;"></span>
+                  <code>#fff</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$blue-invert</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>findColorInvert($blue)</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: #fff;"></span>
+                  <code>#fff</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$purple-invert</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>findColorInvert($purple)</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: #fff;"></span>
+                  <code>#fff</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$red-invert</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>findColorInvert($red)</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: #fff;"></span>
+                  <code>#fff</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$primary-invert</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$turquoise-invert</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: #fff;"></span>
+                  <code>#fff</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$info-invert</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$cyan-invert</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: #fff;"></span>
+                  <code>#fff</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$success-invert</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$green-invert</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: #fff;"></span>
+                  <code>#fff</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$warning-invert</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$yellow-invert</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: rgba(0, 0, 0, 0.7);"></span>
+                  <code>rgba(0, 0, 0, 0.7)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$danger-invert</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$red-invert</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: #fff;"></span>
+                  <code>#fff</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$light-invert</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$dark</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 21%);"></span>
+                  <code>hsl(0, 0%, 21%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$dark-invert</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$light</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 96%);"></span>
+                  <code>hsl(0, 0%, 96%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$background</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$white-ter</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 96%);"></span>
+                  <code>hsl(0, 0%, 96%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$border</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$grey-lighter</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 86%);"></span>
+                  <code>hsl(0, 0%, 86%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$border-hover</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$grey-light</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 71%);"></span>
+                  <code>hsl(0, 0%, 71%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$text</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$grey-dark</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 29%);"></span>
+                  <code>hsl(0, 0%, 29%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$text-invert</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>findColorInvert($text)</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: #fff;"></span>
+                  <code>#fff</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$text-light</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$grey</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 48%);"></span>
+                  <code>hsl(0, 0%, 48%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$text-strong</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$grey-darker</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 21%);"></span>
+                  <code>hsl(0, 0%, 21%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$code</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$red</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(348, 100%, 61%);"></span>
+                  <code>hsl(348, 100%, 61%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$code-background</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$background</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 96%);"></span>
+                  <code>hsl(0, 0%, 96%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$pre</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$text</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 29%);"></span>
+                  <code>hsl(0, 0%, 29%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$pre-background</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$background</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 96%);"></span>
+                  <code>hsl(0, 0%, 96%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$link</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$blue</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(217, 71%,  53%);"></span>
+                  <code>hsl(217, 71%,  53%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$link-invert</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$blue-invert</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: #fff;"></span>
+                  <code>#fff</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$link-visited</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$purple</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(271, 100%, 71%);"></span>
+                  <code>hsl(271, 100%, 71%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$link-hover</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$grey-darker</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 21%);"></span>
+                  <code>hsl(0, 0%, 21%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$link-hover-border</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$grey-light</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 71%);"></span>
+                  <code>hsl(0, 0%, 71%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$link-focus</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$grey-darker</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 21%);"></span>
+                  <code>hsl(0, 0%, 21%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$link-focus-border</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$blue</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(217, 71%,  53%);"></span>
+                  <code>hsl(217, 71%,  53%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$link-active</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$grey-darker</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 21%);"></span>
+                  <code>hsl(0, 0%, 21%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$link-active-border</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$grey-dark</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 29%);"></span>
+                  <code>hsl(0, 0%, 29%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$family-primary</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  font-family
+                  </small>
+                </td>
+                <td>
+                  <code>$family-sans-serif</code>
+                </td>
+                <td>
+                  <code>BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$family-secondary</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  font-family
+                  </small>
+                </td>
+                <td>
+                  <code>$family-sans-serif</code>
+                </td>
+                <td>
+                  <code>BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$family-code</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  font-family
+                  </small>
+                </td>
+                <td>
+                  <code>$family-monospace</code>
+                </td>
+                <td>
+                  <code>monospace</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$size-small</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>$size-7</code>
+                </td>
+                <td>
+                  <code>0.75rem</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$size-normal</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>$size-6</code>
+                </td>
+                <td>
+                  <code>1rem</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$size-medium</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>$size-5</code>
+                </td>
+                <td>
+                  <code>1.25rem</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$size-large</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>$size-4</code>
+                </td>
+                <td>
+                  <code>1.5rem</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$custom-colors</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  keyword
+                  </small>
+                </td>
+                <td>
+                  <code>null</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$custom-shades</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  keyword
+                  </small>
+                </td>
+                <td>
+                  <code>null</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$colors</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  function
+                  </small>
+                </td>
+                <td>
+                  <code>mergeColorMaps(("white": ($white, $black), "black": ($black, $white), "light": ($light, $light-invert), "dark": ($dark, $dark-invert), "primary": ($primary, $primary-invert), "link": ($link, $link-invert), "info": ($info, $info-invert), "success": ($success, $success-invert), "warning": ($warning, $warning-invert), "danger": ($danger, $danger-invert)), $custom-colors)</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$shades</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  function
+                  </small>
+                </td>
+                <td>
+                  <code>mergeColorMaps(("black-bis": $black-bis, "black-ter": $black-ter, "grey-darker": $grey-darker, "grey-dark": $grey-dark, "grey": $grey, "grey-light": $grey-light, "grey-lighter": $grey-lighter, "white-ter": $white-ter, "white-bis": $white-bis), $custom-shades)</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$sizes</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  map
+                  </small>
+                </td>
+                <td>
+                  <code>$size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <hr class="hr" style="margin-bottom: 0;">
+        <h3 id="generic-variables" class="title is-4 is-spaced bd-anchor-title">
+          <span class="bd-anchor-name">
+          Generic variables
+          </span>
+          <a class="bd-anchor-link" href="#generic-variables">
+          #
+          </a>
+        </h3>
+        <div class="content">
+          <p>You can use the following <a href="" target="_blank">generic variables</a> for general <strong>customization</strong>. Simply set one or multiple of these variables <em>before</em> importing Bulma. <a href="customize.html">Learn how</a>.</p>
+        </div>
+        <div class="table-container">
+          <table class="table is-bordered">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Default value</th>
+                <th>Computed value</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Default value</th>
+                <th>Computed value</th>
+              </tr>
+            </tfoot>
+            <tbody>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$body-background-color</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$white</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 100%);"></span>
+                  <code>hsl(0, 0%, 100%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$body-size</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>16px</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$body-min-width</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>300px</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$body-rendering</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  keyword
+                  </small>
+                </td>
+                <td>
+                  <code>optimizeLegibility</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$body-family</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  font-family
+                  </small>
+                </td>
+                <td>
+                  <code>$family-primary</code>
+                </td>
+                <td>
+                  <code>BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$body-overflow-x</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  string
+                  </small>
+                </td>
+                <td>
+                  <code>hidden</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$body-overflow-y</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  string
+                  </small>
+                </td>
+                <td>
+                  <code>scroll</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$body-color</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$text</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 29%);"></span>
+                  <code>hsl(0, 0%, 29%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$body-font-size</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>1em</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$body-weight</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  font-weight
+                  </small>
+                </td>
+                <td>
+                  <code>$weight-normal</code>
+                </td>
+                <td>
+                  <code>400</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$body-line-height</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  unitless
+                  </small>
+                </td>
+                <td>
+                  <code>1.5</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$code-family</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  font-family
+                  </small>
+                </td>
+                <td>
+                  <code>$family-code</code>
+                </td>
+                <td>
+                  <code>monospace</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$code-padding</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>0.25em 0.5em 0.25em</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$code-weight</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  font-weight
+                  </small>
+                </td>
+                <td>
+                  <code>normal</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$code-size</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>0.875em</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$small-font-size</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>0.875em</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$hr-background-color</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$background</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 96%);"></span>
+                  <code>hsl(0, 0%, 96%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$hr-height</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>2px</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$hr-margin</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>1.5rem 0</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$strong-color</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  color
+                  </small>
+                </td>
+                <td>
+                  <code>$text-strong</code>
+                </td>
+                <td>
+                  <span class="bd-color" style="background: hsl(0, 0%, 21%);"></span>
+                  <code>hsl(0, 0%, 21%)</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$strong-weight</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  font-weight
+                  </small>
+                </td>
+                <td>
+                  <code>$weight-bold</code>
+                </td>
+                <td>
+                  <code>700</code>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$pre-font-size</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>0.875em</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$pre-padding</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>1.25rem 1.5rem</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <code style="white-space: nowrap;">$pre-code-font-size</code>
+                </td>
+                <td>
+                  <small class="tag">
+                  size
+                  </small>
+                </td>
+                <td>
+                  <code>1em</code>
+                </td>
+                <td>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- /Variables section -->
+    <!-- Node sass section -->
+    <section id="customize-node-sass" class="section is-medium">
+      <div class="container">
+        <!-- Node sass Title -->
+        <div class="section-title-wrapper">
+          <div class="bg-number">3</div>
+          <h2 class="title section-title has-text-centered dark-text">WITH NODE-SASS</h2>
+          <div class="subtitle has-text-centered is-tablet-padded">Use npm/yarn and node-sass</div>
+        </div>
+        <!-- /Node sass Title -->
+        <div class="bd-content">
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="node-sass-create" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                1. Create a <code style="white-space: nowrap;">package.json</code> file
+                </span>
+                <a class="bd-anchor-link" href="#node-sass-create">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  In your terminal, create a new folder called <code>mybulma</code>, navigate to it, then type the following command:
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-bash" data-lang="bash">npm init
+
+                </code></pre>
+              </figure>
+              <div class="content">
+                <p>
+                  This will launch an interactive setup to create <code>package.json</code>. When prompted for an <strong>entry point</strong>, enter <code>sass/mystyles.scss</code>.
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="node-sass-dependencies" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                2. Install the dev dependencies
+                </span>
+                <a class="bd-anchor-link" href="#node-sass-dependencies">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  You only need <strong>2 packages</strong> to customize Bulma: <code>node-sass</code> and <code>bulma</code> itself.
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-bash" data-lang="bash">npm install node-sass <span class="hljs-tag">--save-dev</span>
+                npm install bulma <span class="hljs-tag">--save-dev</span>
+              </code></pre>
+              </figure>
+              <div class="content">
+                <p>
+                  Your <code>package.json</code> should look like this at this point.
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-bash" data-lang="bash"><span class="o">{</span>
+                  <span class="s2">"name"</span>: <span class="s2">"mybulma"</span>,
+                  <span class="s2">"version"</span>: <span class="s2">"1.0.0"</span>,
+                  <span class="s2">"main"</span>: <span class="s2">"sass/mystyles.scss"</span>,
+                  <span class="s2">"license"</span>: <span class="s2">"MIT"</span>,
+                  <span class="s2">"devDependencies"</span>: <span class="o">{</span>
+                    <span class="s2">"bulma"</span>: <span class="s2">"^0.7.2"</span>,
+                    <span class="s2">"node-sass"</span>: <span class="s2">"^4.9.2"</span>
+                  <span class="o">}</span>
+                <span class="o">}</span>
+              </code></pre>
+              </figure>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="node-sass-file" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                3. Create a Sass file
+                </span>
+                <a class="bd-anchor-link" href="#node-sass-file">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  Create a <code>sass</code> folder in which you add a file called <code>mystyles.scss</code>:
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-scss" data-lang="scss"><span class="k">@charset</span> <span class="s2">"utf-8"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/bulma.sass"</span><span class="p">;</span>
+              </code></pre>
+              </figure>
+              <div class="content">
+                <p>
+                  Make sure to write the correct path to the <code>bulma.sass</code> file.
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="node-sass-page" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                4. Create an HTML page
+                </span>
+                <a class="bd-anchor-link" href="#node-sass-page">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  Create an HTML template which uses several Bulma components.
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-html" data-lang="html">
+                  <span class="cp">&lt;!DOCTYPE html&gt;</span>
+                <span class="hljs-tag">&lt;html</span> <span class="hljs-attribute">lang=</span><span class="hljs-name">"en"</span><span class="hljs-tag">&gt;</span>
+                  <span class="hljs-tag">&lt;head&gt;</span>
+                    <span class="hljs-tag">&lt;title&gt;</span>My custom Bulma website<span class="hljs-tag">&lt;/title&gt;</span>
+                    <span class="hljs-tag">&lt;link</span> <span class="hljs-attribute">rel=</span><span class="hljs-name">"stylesheet"</span> <span class="hljs-attribute">href=</span><span class="hljs-name">"css/mystyles.css"</span><span class="hljs-tag">&gt;</span>
+                  <span class="hljs-tag">&lt;/head&gt;</span>
+                  <span class="hljs-tag">&lt;body&gt;</span>
+                     <span class="hljs-tag">&lt;h1</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"title"</span><span class="hljs-tag">&gt;</span>
+                        Bulma
+                      <span class="hljs-tag">&lt;/h1&gt;</span>
+                
+                      <span class="hljs-tag">&lt;p</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"subtitle"</span><span class="hljs-tag">&gt;</span>
+                        Modern CSS framework based on <span class="hljs-tag">&lt;a</span> <span class="hljs-attribute">href=</span><span class="hljs-name">"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox"</span><span class="hljs-tag">&gt;</span>Flexbox<span class="hljs-tag">&lt;/a&gt;</span>
+                      <span class="hljs-tag">&lt;/p&gt;</span>
+                
+                      <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"field"</span><span class="hljs-tag">&gt;</span>
+                        <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"control"</span><span class="hljs-tag">&gt;</span>
+                          <span class="hljs-tag">&lt;input</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"input"</span> <span class="hljs-attribute">type=</span><span class="hljs-name">"text"</span> <span class="hljs-attribute">placeholder=</span><span class="hljs-name">"Input"</span><span class="hljs-tag">&gt;</span>
+                        <span class="hljs-tag">&lt;/div&gt;</span>
+                      <span class="hljs-tag">&lt;/div&gt;</span>
+                
+                      <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"field"</span><span class="hljs-tag">&gt;</span>
+                        <span class="hljs-tag">&lt;p</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"control"</span><span class="hljs-tag">&gt;</span>
+                          <span class="hljs-tag">&lt;span</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"select"</span><span class="hljs-tag">&gt;</span>
+                            <span class="hljs-tag">&lt;select&gt;</span>
+                              <span class="hljs-tag">&lt;option&gt;</span>Select dropdown<span class="hljs-tag">&lt;/option&gt;</span>
+                            <span class="hljs-tag">&lt;/select&gt;</span>
+                          <span class="hljs-tag">&lt;/span&gt;</span>
+                        <span class="hljs-tag">&lt;/p&gt;</span>
+                      <span class="hljs-tag">&lt;/div&gt;</span>
+                
+                      <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"buttons"</span><span class="hljs-tag">&gt;</span>
+                        <span class="hljs-tag">&lt;a</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"button is-primary"</span><span class="hljs-tag">&gt;</span>Primary<span class="hljs-tag">&lt;/a&gt;</span>
+                        <span class="hljs-tag">&lt;a</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"button is-link"</span><span class="hljs-tag">&gt;</span>Link<span class="hljs-tag">&lt;/a&gt;</span>
+                      <span class="hljs-tag">&lt;/div&gt;</span>
+                  <span class="hljs-tag">&lt;/body&gt;</span>
+                <span class="hljs-tag">&lt;/html&gt;</span>
+              </code></pre>
+              </figure>
+              <div class="content">
+                <p>
+                  Save this file as <code>mypage.html</code>.
+                </p>
+                <p>
+                  Notice the <code>css/mystyles.css</code> path for your stylesheet. This will be the location of the CSS file we will generate with Sass.
+                </p>
+                <p>
+                  Open the page in your browser:
+                </p>
+              </div>
+              <figure class="bd-figure">
+                <img
+                  src="https://bulma.io/images/customize/custom-bulma-01-unstyled.png"
+                  srcset="https://bulma.io/images/customize/custom-bulma-01-unstyled.png 1x,
+                  https://bulma.io/images/customize/custom-bulma-01-unstyled@2x.png 2x"
+                  alt="Bulma unstyled"
+                  width="600"
+                  height="300">
+                <figcaption>
+                  The unstyled page
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="node-sass-scripts" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                5. Add node scripts to build your CSS
+                </span>
+                <a class="bd-anchor-link" href="#node-sass-scripts">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  To build a CSS file from a Sass file, we can use <strong>node scripts</strong>. In <code>package.json</code>, add the following:
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-html" data-lang="html">
+                  "scripts": {
+                  "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+                  "css-watch": "npm run css-build -- --watch",
+                  "start": "npm run css-watch"
+                }
+              </code></pre>
+              </figure>
+              <div class="content">
+                <ul>
+                  <li>
+                    <code>css-build</code> takes <code>sass/mystyles.scss</code> as an input, and outputs <code>css/mystyles.css</code>, while omitting the source map
+                  </li>
+                  <li>
+                    <code>css-watch</code> builds the CSS and watches for changes
+                  </li>
+                  <li>
+                    <code>start</code> is simply a shortcut for <code>css-watch</code>
+                  </li>
+                </ul>
+                <p>
+                  To test it out, go in your <strong>terminal</strong> and run the following command:
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-bash" data-lang="bash">npm run css-build
+
+                </code></pre>
+              </figure>
+              <div class="content">
+                <p>
+                  If set up correctly, you will see the following message:
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-bash" data-lang="bash">Rendering Complete, saving .css file...
+                Wrote CSS to /path/to/mybulma/css/mystyles.css
+              </code></pre>
+              </figure>
+              <div class="content">
+                <p>
+                  <strong>Reload</strong> the page and it should be styled like this:
+                </p>
+              </div>
+              <figure class="bd-figure" style="">
+                <img
+                  src="https://bulma.io/images/customize/custom-bulma-02-default.png"
+                  srcset="https://bulma.io/images/customize/custom-bulma-02-default.png 1x,
+                  https://bulma.io/images/customize/custom-bulma-02-default@2x.png 2x"
+                  alt="Bulma default styles"
+                  width="600"
+                  height="300">
+                <figcaption>
+                  Bulma's default styles
+                </figcaption>
+              </figure>
+              <div class="content">
+                <p>
+                  To <strong>watch for changes</strong>, just launch the following command:
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-bash" data-lang="bash">npm start
+
+                </code></pre>
+              </figure>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="node-sass-bulma" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                6. Add your own Bulma styles
+                </span>
+                <a class="bd-anchor-link" href="#node-sass-bulma">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  Replace the content of the <code>mystyles.scss</code> file with the following:
+                </p>
+              </div>
+              <div class="highlight-full">
+                <figure class="highlight">
+                  <pre><code class="language-scss" data-lang="scss"><span class="k">@charset</span> <span class="s2">"utf-8"</span><span class="p">;</span>
+                
+                <span class="c1">// Import a Google Font
+                </span><span class="k">@import</span> <span class="sx">url('https://fonts.googleapis.com/css?family=Nunito:400,700')</span><span class="p">;</span>
+                
+                <span class="c1">// Set your brand colors
+                </span><span class="nv">$purple</span><span class="p">:</span> <span class="mh">#8A4D76</span><span class="p">;</span>
+                <span class="nv">$pink</span><span class="p">:</span> <span class="mh">#FA7C91</span><span class="p">;</span>
+                <span class="nv">$brown</span><span class="p">:</span> <span class="mh">#757763</span><span class="p">;</span>
+                <span class="nv">$beige-light</span><span class="p">:</span> <span class="mh">#D0D1CD</span><span class="p">;</span>
+                <span class="nv">$beige-lighter</span><span class="p">:</span> <span class="mh">#EFF0EB</span><span class="p">;</span>
+                
+                <span class="c1">// Update Bulma's global variables
+                </span><span class="nv">$family-sans-serif</span><span class="p">:</span> <span class="s2">"Nunito"</span><span class="o">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+                <span class="nv">$grey-dark</span><span class="p">:</span> <span class="nv">$brown</span><span class="p">;</span>
+                <span class="nv">$grey-light</span><span class="p">:</span> <span class="nv">$beige-light</span><span class="p">;</span>
+                <span class="nv">$primary</span><span class="p">:</span> <span class="nv">$purple</span><span class="p">;</span>
+                <span class="nv">$link</span><span class="p">:</span> <span class="nv">$pink</span><span class="p">;</span>
+                <span class="nv">$widescreen-enabled</span><span class="p">:</span> <span class="bp">false</span><span class="p">;</span>
+                <span class="nv">$fullhd-enabled</span><span class="p">:</span> <span class="bp">false</span><span class="p">;</span>
+                
+                <span class="c1">// Update some of Bulma's component variables
+                </span><span class="nv">$body-background-color</span><span class="p">:</span> <span class="nv">$beige-lighter</span><span class="p">;</span>
+                <span class="nv">$control-border-width</span><span class="p">:</span> <span class="m">2px</span><span class="p">;</span>
+                <span class="nv">$input-border-color</span><span class="p">:</span> <span class="nb">transparent</span><span class="p">;</span>
+                <span class="nv">$input-shadow</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+                
+                <span class="c1">// Import only what you need from Bulma
+                </span><span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/utilities/_all.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/base/_all.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/elements/button.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/elements/container.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/elements/title.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/form/_all.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/components/navbar.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/layout/hero.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/layout/section.sass"</span><span class="p">;</span>
+              </code></pre>
+                </figure>
+              </div>
+              <div class="content">
+                <p>
+                  Since you are watching for changes, simply <strong>save the file</strong> to see the result:
+                </p>
+              </div>
+              <figure class="bd-figure" style="background-color: #EFF0EB;">
+                <img
+                  src="https://bulma.io/images/customize/custom-bulma-03-styled.png"
+                  srcset="https://bulma.io/images/customize/custom-bulma-03-styled.png 1x,
+                  https://bulma.io/images/customize/custom-bulma-03-styled@2x.png 2x"
+                  alt="Bulma customized"
+                  width="600"
+                  height="300">
+                <figcaption>
+                  Bulma's customized theme
+                </figcaption>
+              </figure>
+              <div class="content">
+                <p>
+                  And voilà! You've managed to install and customize Bulma.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Node sass section -->
+    <!-- Sass-cli section -->
+    <section id="customize-sass-cli" class="section is-medium is-grey">
+      <div class="container">
+        <!-- Sass-cli Title -->
+        <div class="section-title-wrapper">
+          <div class="bg-number">4</div>
+          <h2 class="title section-title has-text-centered dark-text">WITH SASS-CLI</h2>
+          <div class="subtitle has-text-centered is-tablet-padded">Use the Sass command line</div>
+        </div>
+        <!-- /Sass-cli Title -->
+        <div class="bd-content">
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="sass-cli-install" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                1. Install Sass
+                </span>
+                <a class="bd-anchor-link" href="#sass-cli-install">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  In your terminal, create a new folder called <code>mybulma</code>, navigate to it, then install the <strong>Sass gem</strong>:
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-bash" data-lang="bash">gem install sass
+
+                </code></pre>
+              </figure>
+              <div class="content">
+                <p>
+                  To try it out, run <code>sass -v</code> and you should see the following:
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-bash" data-lang="bash">Sass 3.5.3 <span class="o">(</span>Bleeding Edge<span class="o">)</span>
+                </code></pre>
+              </figure>
+              <div class="message is-info">
+                <div class="message-body">
+                  <p>
+                    If you are on <strong>Windows</strong> and use <strong>Chocolatey</strong>, you can try <code>choco install sass</code>.
+                  </p>
+                  <p>
+                    If you are on <strong>Mac</strong> and use <strong>Homebrew</strong>, you can try <code>brew install sass/sass/sass</code>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="sass-cli-download" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                2. Download Bulma
+                </span>
+                <a class="bd-anchor-link" href="#sass-cli-download">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  Get the latest version of Bulma:
+                </p>
+                <p>
+                  <a class="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.7.5/bulma-0.7.5.zip">
+                  <strong>Download</strong>
+                  </a>
+                </p>
+                <p>
+                  Unzip it and put the <code>bulma-0.7.5</code> folder inside your <code>mybulma</code> folder.
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="sass-cli-create" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                3. Create a Sass file
+                </span>
+                <a class="bd-anchor-link" href="#sass-cli-create">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  Create a <code>sass</code> folder in which you add a file called <code>mystyles.scss</code>:
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-scss" data-lang="scss"><span class="k">@charset</span> <span class="s2">"utf-8"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../bulma-0.7.5/bulma/bulma.sass"</span><span class="p">;</span>
+              </code></pre>
+              </figure>
+              <div class="content">
+                <p>
+                  Make sure to write the correct path to the <code>bulma.sass</code> file.
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="sass-cli-page" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                4. Create an HTML page
+                </span>
+                <a class="bd-anchor-link" href="#sass-cli-page">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  Create an HTML template which uses several Bulma components.
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-html" data-lang="html">
+                  <span class="cp">&lt;!DOCTYPE html&gt;</span>
+                <span class="hljs-tag">&lt;html</span> <span class="hljs-attribute">lang=</span><span class="hljs-name">"en"</span><span class="hljs-tag">&gt;</span>
+                  <span class="hljs-tag">&lt;head&gt;</span>
+                    <span class="hljs-tag">&lt;title&gt;</span>My custom Bulma website<span class="hljs-tag">&lt;/title&gt;</span>
+                    <span class="hljs-tag">&lt;link</span> <span class="hljs-attribute">rel=</span><span class="hljs-name">"stylesheet"</span> <span class="hljs-attribute">href=</span><span class="hljs-name">"css/mystyles.css"</span><span class="hljs-tag">&gt;</span>
+                  <span class="hljs-tag">&lt;/head&gt;</span>
+                  <span class="hljs-tag">&lt;body&gt;</span>
+                     <span class="hljs-tag">&lt;h1</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"title"</span><span class="hljs-tag">&gt;</span>
+                        Bulma
+                      <span class="hljs-tag">&lt;/h1&gt;</span>
+                
+                      <span class="hljs-tag">&lt;p</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"subtitle"</span><span class="hljs-tag">&gt;</span>
+                        Modern CSS framework based on <span class="hljs-tag">&lt;a</span> <span class="hljs-attribute">href=</span><span class="hljs-name">"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox"</span><span class="hljs-tag">&gt;</span>Flexbox<span class="hljs-tag">&lt;/a&gt;</span>
+                      <span class="hljs-tag">&lt;/p&gt;</span>
+                
+                      <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"field"</span><span class="hljs-tag">&gt;</span>
+                        <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"control"</span><span class="hljs-tag">&gt;</span>
+                          <span class="hljs-tag">&lt;input</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"input"</span> <span class="hljs-attribute">type=</span><span class="hljs-name">"text"</span> <span class="hljs-attribute">placeholder=</span><span class="hljs-name">"Input"</span><span class="hljs-tag">&gt;</span>
+                        <span class="hljs-tag">&lt;/div&gt;</span>
+                      <span class="hljs-tag">&lt;/div&gt;</span>
+                
+                      <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"field"</span><span class="hljs-tag">&gt;</span>
+                        <span class="hljs-tag">&lt;p</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"control"</span><span class="hljs-tag">&gt;</span>
+                          <span class="hljs-tag">&lt;span</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"select"</span><span class="hljs-tag">&gt;</span>
+                            <span class="hljs-tag">&lt;select&gt;</span>
+                              <span class="hljs-tag">&lt;option&gt;</span>Select dropdown<span class="hljs-tag">&lt;/option&gt;</span>
+                            <span class="hljs-tag">&lt;/select&gt;</span>
+                          <span class="hljs-tag">&lt;/span&gt;</span>
+                        <span class="hljs-tag">&lt;/p&gt;</span>
+                      <span class="hljs-tag">&lt;/div&gt;</span>
+                
+                      <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"buttons"</span><span class="hljs-tag">&gt;</span>
+                        <span class="hljs-tag">&lt;a</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"button is-primary"</span><span class="hljs-tag">&gt;</span>Primary<span class="hljs-tag">&lt;/a&gt;</span>
+                        <span class="hljs-tag">&lt;a</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"button is-link"</span><span class="hljs-tag">&gt;</span>Link<span class="hljs-tag">&lt;/a&gt;</span>
+                      <span class="hljs-tag">&lt;/div&gt;</span>
+                  <span class="hljs-tag">&lt;/body&gt;</span>
+                <span class="hljs-tag">&lt;/html&gt;</span>
+              </code></pre>
+              </figure>
+              <div class="content">
+                <p>
+                  Save this file as <code>mypage.html</code>.
+                </p>
+                <p>
+                  Notice the <code>css/mystyles.css</code> path for your stylesheet. This will be the location of the CSS file we will generate with Sass.
+                </p>
+                <p>
+                  Open the page in your browser:
+                </p>
+              </div>
+              <figure class="bd-figure" style="">
+                <img
+                  src="https://bulma.io/images/customize/custom-bulma-01-unstyled.png"
+                  srcset="https://bulma.io/images/customize/custom-bulma-01-unstyled.png 1x,
+                  https://bulma.io/images/customize/custom-bulma-01-unstyled@2x.png 2x"
+                  alt="Bulma unstyled"
+                  width="600"
+                  height="300">
+                <figcaption>
+                  The unstyled page
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="sass-cli-file" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                5. Build the CSS file
+                </span>
+                <a class="bd-anchor-link" href="#sass-cli-file">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  In your terminal, type the following command:
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-bash" data-lang="bash">sass <span class="hljs-tag">--sourcemap</span><span class="o">=</span>none sass/mystyles.scss:css/mystyles.css
+                </code></pre>
+              </figure>
+              <div class="content">
+                <p>
+                  <strong>Reload</strong> the page and it should be styled like this:
+                </p>
+              </div>
+              <figure class="bd-figure" style="">
+                <img
+                  src="https://bulma.io/images/customize/custom-bulma-02-default.png"
+                  srcset="https://bulma.io/images/customize/custom-bulma-02-default.png 1x,
+                  https://bulma.io/images/customize/custom-bulma-02-default@2x.png 2x"
+                  alt="Bulma default styles"
+                  width="600"
+                  height="300">
+                <figcaption>
+                  Bulma's default styles
+                </figcaption>
+              </figure>
+              <div class="content">
+                <p>
+                  To <strong>watch for changes</strong>, just launch the following command:
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-bash" data-lang="bash">sass <span class="hljs-tag">--watch</span> <span class="hljs-tag">--sourcemap</span><span class="o">=</span>none sass/mystyles.scss:css/mystyles.css
+                </code></pre>
+              </figure>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="sass-cli-bulma" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                6. Add your own Bulma styles
+                </span>
+                <a class="bd-anchor-link" href="#sass-cli-bulma">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  Replace the content of the <code>mystyles.scss</code> file with the following:
+                </p>
+              </div>
+              <div class="highlight-full">
+                <figure class="highlight">
+                  <pre><code class="language-scss" data-lang="scss"><span class="k">@charset</span> <span class="s2">"utf-8"</span><span class="p">;</span>
+                
+                <span class="c1">// Import a Google Font
+                </span><span class="k">@import</span> <span class="sx">url('https://fonts.googleapis.com/css?family=Nunito:400,700')</span><span class="p">;</span>
+                
+                <span class="c1">// Set your brand colors
+                </span><span class="nv">$purple</span><span class="p">:</span> <span class="mh">#8A4D76</span><span class="p">;</span>
+                <span class="nv">$pink</span><span class="p">:</span> <span class="mh">#FA7C91</span><span class="p">;</span>
+                <span class="nv">$brown</span><span class="p">:</span> <span class="mh">#757763</span><span class="p">;</span>
+                <span class="nv">$beige-light</span><span class="p">:</span> <span class="mh">#D0D1CD</span><span class="p">;</span>
+                <span class="nv">$beige-lighter</span><span class="p">:</span> <span class="mh">#EFF0EB</span><span class="p">;</span>
+                
+                <span class="c1">// Update Bulma's global variables
+                </span><span class="nv">$family-sans-serif</span><span class="p">:</span> <span class="s2">"Nunito"</span><span class="o">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+                <span class="nv">$grey-dark</span><span class="p">:</span> <span class="nv">$brown</span><span class="p">;</span>
+                <span class="nv">$grey-light</span><span class="p">:</span> <span class="nv">$beige-light</span><span class="p">;</span>
+                <span class="nv">$primary</span><span class="p">:</span> <span class="nv">$purple</span><span class="p">;</span>
+                <span class="nv">$link</span><span class="p">:</span> <span class="nv">$pink</span><span class="p">;</span>
+                <span class="nv">$widescreen-enabled</span><span class="p">:</span> <span class="bp">false</span><span class="p">;</span>
+                <span class="nv">$fullhd-enabled</span><span class="p">:</span> <span class="bp">false</span><span class="p">;</span>
+                
+                <span class="c1">// Update some of Bulma's component variables
+                </span><span class="nv">$body-background-color</span><span class="p">:</span> <span class="nv">$beige-lighter</span><span class="p">;</span>
+                <span class="nv">$control-border-width</span><span class="p">:</span> <span class="m">2px</span><span class="p">;</span>
+                <span class="nv">$input-border-color</span><span class="p">:</span> <span class="nb">transparent</span><span class="p">;</span>
+                <span class="nv">$input-shadow</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+                
+                <span class="c1">// Import only what you need from Bulma
+                </span><span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/utilities/_all.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/base/_all.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/elements/button.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/elements/container.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/elements/title.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/form/_all.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/components/navbar.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/layout/hero.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/layout/section.sass"</span><span class="p">;</span>
+              </code></pre>
+                </figure>
+              </div>
+              <div class="content">
+                <p>
+                  Since you are watching for changes, simply <strong>save the file</strong> to see the result:
+                </p>
+              </div>
+              <figure class="bd-figure" style="background-color: #EFF0EB;">
+                <img
+                  src="https://bulma.io/images/customize/custom-bulma-03-styled.png"
+                  srcset="https://bulma.io/images/customize/custom-bulma-03-styled.png 1x,
+                  https://bulma.io/images/customize/custom-bulma-03-styled@2x.png 2x"
+                  alt="Bulma customized"
+                  width="600"
+                  height="300">
+                <figcaption>
+                  Bulma's customized theme
+                </figcaption>
+              </figure>
+              <div class="content">
+                <p>
+                  And voilà! You've managed to install and customize Bulma.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Sass-cli section -->
+    <!-- With Webpack section -->
+    <section id="customize-with-webpack" class="section is-medium">
+      <div class="container">
+        <!-- With Webpack Title -->
+        <div class="section-title-wrapper">
+          <div class="bg-number">5</div>
+          <h2 class="title section-title has-text-centered dark-text">WITH WEBPACK</h2>
+          <div class="subtitle has-text-centered is-tablet-padded">Use Bulma with webpack</div>
+        </div>
+        <!-- /With Webpack Title -->
+        <div class="bd-content">
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="with-webpack-create" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                1. Create a <code style="white-space: nowrap;">package.json</code> file
+                </span>
+                <a class="bd-anchor-link" href="#with-webpack-create">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  In your terminal, create a new folder called <code>mybulma</code>, navigate to it, then type the following command:
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-bash" data-lang="bash">npm init
+
+                </code></pre>
+              </figure>
+              <div class="content">
+                <p>
+                  This will launch an interactive setup to create <code>package.json</code>. When prompted for an <strong>entry point</strong>, enter <code>webpack.config.js</code>.
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="with-webpack-dependencies" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                2. Install the dev dependencies
+                </span>
+                <a class="bd-anchor-link" href="#with-webpack-dependencies">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  Install the packages required to parse and build your CSS:
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-bash" data-lang="bash">npm install bulma <span class="hljs-tag">--save-dev</span>
+                npm install css-loader <span class="hljs-tag">--save-dev</span>
+                npm install <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="31544945435052451c455449451c4654534150525a1c415d4456585f715f544945">[email&#160;protected]</a> <span class="hljs-tag">--save-dev</span>
+                npm install node-sass <span class="hljs-tag">--save-dev</span>
+                npm install sass-loader <span class="hljs-tag">--save-dev</span>
+                npm install style-loader <span class="hljs-tag">--save-dev</span>
+                npm install webpack <span class="hljs-tag">--save-dev</span>
+                npm install webpack-cli <span class="hljs-tag">--save-dev</span>
+              </code></pre>
+              </figure>
+              <div class="content">
+                <p>
+                  Your <code>package.json</code> should look like this at this point.
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-bash" data-lang="bash"><span class="o">{</span>
+                  <span class="s2">"name"</span>: <span class="s2">"mybulma"</span>,
+                  <span class="s2">"version"</span>: <span class="s2">"1.0.0"</span>,
+                  <span class="s2">"main"</span>: <span class="s2">"webpack.config.js"</span>,
+                  <span class="s2">"license"</span>: <span class="s2">"MIT"</span>,
+                  <span class="s2">"devDependencies"</span>: <span class="o">{</span>
+                    <span class="s2">"bulma"</span>: <span class="s2">"^0.7.2"</span>,
+                    <span class="s2">"css-loader"</span>: <span class="s2">"^1.0.0"</span>,
+                    <span class="s2">"extract-text-webpack-plugin"</span>: <span class="s2">"^4.0.0-beta.0"</span>,
+                    <span class="s2">"node-sass"</span>: <span class="s2">"^4.9.2"</span>,
+                    <span class="s2">"sass-loader"</span>: <span class="s2">"^7.0.3"</span>,
+                    <span class="s2">"style-loader"</span>: <span class="s2">"^0.21.0"</span>,
+                    <span class="s2">"webpack"</span>: <span class="s2">"^4.16.0"</span>,
+                    <span class="s2">"webpack-cli"</span>: <span class="s2">"^3.0.8"</span>
+                  <span class="o">}</span>
+                <span class="o">}</span>
+              </code></pre>
+              </figure>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="with-webpack-webpack3" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                3. Create a webpack config (Webpack <= 3)
+                </span>
+                <a class="bd-anchor-link" href="#with-webpack-webpack3">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  Create a <code>webpack.config.js</code> file:
+                </p>
+              </div>
+              <div class="highlight-full">
+                <figure class="highlight">
+                  <pre><code class="language-js" data-lang="js"><span class="kd">const</span> <span class="nx">path</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'path'</span><span class="p">);</span>
+                <span class="kd">const</span> <span class="nx">ExtractTextPlugin</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">"extract-text-webpack-plugin"</span><span class="p">);</span>
+                
+                <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
+                  <span class="hljs-attribute">entry</span><span class="p">:</span> <span class="s1">'./src/index.js'</span><span class="p">,</span>
+                  <span class="hljs-attribute">output</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="hljs-attribute">path</span><span class="p">:</span> <span class="nx">path</span><span class="p">.</span><span class="nx">resolve</span><span class="p">(</span><span class="nx">__dirname</span><span class="p">,</span> <span class="s1">'dist'</span><span class="p">),</span>
+                    <span class="hljs-attribute">filename</span><span class="p">:</span> <span class="s1">'js/bundle.js'</span>
+                  <span class="p">},</span>
+                  <span class="hljs-attribute">module</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="hljs-attribute">rules</span><span class="p">:</span> <span class="p">[{</span>
+                      <span class="hljs-attribute">test</span><span class="p">:</span> <span class="sr">/</span><span class="se">\.</span><span class="sr">scss$/</span><span class="p">,</span>
+                      <span class="hljs-attribute">use</span><span class="p">:</span> <span class="nx">ExtractTextPlugin</span><span class="p">.</span><span class="nx">extract</span><span class="p">({</span>
+                        <span class="hljs-attribute">fallback</span><span class="p">:</span> <span class="s1">'style-loader'</span><span class="p">,</span>
+                        <span class="hljs-attribute">use</span><span class="p">:</span> <span class="p">[</span>
+                          <span class="s1">'css-loader'</span><span class="p">,</span>
+                          <span class="s1">'sass-loader'</span>
+                        <span class="p">]</span>
+                      <span class="p">})</span>
+                    <span class="p">}]</span>
+                  <span class="p">},</span>
+                  <span class="hljs-attribute">plugins</span><span class="p">:</span> <span class="p">[</span>
+                    <span class="k">new</span> <span class="nx">ExtractTextPlugin</span><span class="p">(</span><span class="s1">'css/mystyles.css'</span><span class="p">),</span>
+                  <span class="p">]</span>
+                <span class="p">};</span>
+              </code></pre>
+                </figure>
+              </div>
+              <div class="content">
+                <p>
+                  This setup takes the <code>src</code> folder as input, and outputs in the <code>dist</code> folder.
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="with-webpack-webpack4" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                3.5. Create a webpack config (Webpack 4)
+                </span>
+                <a class="bd-anchor-link" href="#with-webpack-webpack4">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  Create a <code>webpack.config.js</code> file:
+                </p>
+              </div>
+              <div class="highlight-full">
+                <figure class="highlight">
+                  <pre><code class="language-js" data-lang="js"><span class="kd">const</span> <span class="nx">path</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'path'</span><span class="p">);</span>
+                <span class="kd">const</span> <span class="nx">MiniCssExtractPlugin</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'mini-css-extract-plugin'</span><span class="p">)</span>
+                
+                <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
+                  <span class="hljs-attribute">entry</span><span class="p">:</span> <span class="s1">'./src/index.js'</span><span class="p">,</span>
+                  <span class="hljs-attribute">output</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="hljs-attribute">path</span><span class="p">:</span> <span class="nx">path</span><span class="p">.</span><span class="nx">resolve</span><span class="p">(</span><span class="nx">__dirname</span><span class="p">,</span> <span class="s1">'dist'</span><span class="p">),</span>
+                    <span class="hljs-attribute">filename</span><span class="p">:</span> <span class="s1">'js/bundle.js'</span>
+                  <span class="p">},</span>
+                  <span class="hljs-attribute">module</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="hljs-attribute">rules</span><span class="p">:</span> <span class="p">[{</span>
+                      <span class="hljs-attribute">test</span><span class="p">:</span> <span class="sr">/</span><span class="se">\.</span><span class="sr">scss$/</span><span class="p">,</span>
+                      <span class="hljs-attribute">use</span><span class="p">:</span> <span class="p">[</span>
+                          <span class="nx">MiniCssExtractPlugin</span><span class="p">.</span><span class="nx">loader</span><span class="p">,</span>
+                          <span class="p">{</span>
+                            <span class="hljs-attribute">loader</span><span class="p">:</span> <span class="s1">'css-loader'</span>
+                          <span class="p">},</span>
+                          <span class="p">{</span>
+                            <span class="hljs-attribute">loader</span><span class="p">:</span> <span class="s1">'sass-loader'</span><span class="p">,</span>
+                            <span class="hljs-attribute">options</span><span class="p">:</span> <span class="p">{</span>
+                              <span class="hljs-attribute">sourceMap</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+                              <span class="c1">// options...</span>
+                            <span class="p">}</span>
+                          <span class="p">}</span>
+                        <span class="p">]</span>
+                    <span class="p">}]</span>
+                  <span class="p">},</span>
+                  <span class="hljs-attribute">plugins</span><span class="p">:</span> <span class="p">[</span>
+                    <span class="k">new</span> <span class="nx">MiniCssExtractPlugin</span><span class="p">({</span>
+                      <span class="hljs-attribute">filename</span><span class="p">:</span> <span class="s1">'css/[name].bundle.css'</span>
+                    <span class="p">}),</span>
+                  <span class="p">]</span>
+                <span class="p">};</span>
+              </code></pre>
+                </figure>
+              </div>
+              <div class="content">
+                <p>
+                  This setup takes the <code>src</code> folder as input, and outputs in the <code>dist</code> folder.
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="with-webpack-folder" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                4. Create a <code>src</code> folder
+                </span>
+                <a class="bd-anchor-link" href="#with-webpack-folder">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  Create a <code>src</code> folder in which you add a file called <code>index.js</code> with the following content:
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-js" data-lang="js"><span class="nx">require</span><span class="p">(</span><span class="s1">'./mystyles.scss'</span><span class="p">);</span>
+                </code></pre>
+              </figure>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="with-webpack-file" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                5. Create a Sass file
+                </span>
+                <a class="bd-anchor-link" href="#with-webpack-file">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  Inside the same <code>src</code> folder, add a file called <code>mystyles.scss</code>:
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-scss" data-lang="scss"><span class="k">@charset</span> <span class="s2">"utf-8"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"~bulma/bulma"</span><span class="p">;</span>
+              </code></pre>
+              </figure>
+              <div class="content">
+                <p>
+                  Make sure to write the correct path to the <code>bulma</code> folder.
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="with-webpack-dist" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                6. Create a <code>dist</code> folder
+                </span>
+                <a class="bd-anchor-link" href="#6-create-a-code-dist-code-folder">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  Create a <code>dist</code> folder in which you add a <code>css</code> folder, and a <code>js</code> folder. Leave these last two folders empty. Their content will be generated by the webpack build.
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="with-webpack-page" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                7. Create an HTML page
+                </span>
+                <a class="bd-anchor-link" href="#with-webpack-page">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  Create an HTML template which uses several Bulma components.
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-html" data-lang="html">
+                  <span class="cp">&lt;!DOCTYPE html&gt;</span>
+                <span class="hljs-tag">&lt;html</span> <span class="hljs-attribute">lang=</span><span class="hljs-name">"en"</span><span class="hljs-tag">&gt;</span>
+                  <span class="hljs-tag">&lt;head&gt;</span>
+                    <span class="hljs-tag">&lt;title&gt;</span>My custom Bulma website<span class="hljs-tag">&lt;/title&gt;</span>
+                    <span class="hljs-tag">&lt;link</span> <span class="hljs-attribute">rel=</span><span class="hljs-name">"stylesheet"</span> <span class="hljs-attribute">href=</span><span class="hljs-name">"css/mystyles.css"</span><span class="hljs-tag">&gt;</span>
+                  <span class="hljs-tag">&lt;/head&gt;</span>
+                  <span class="hljs-tag">&lt;body&gt;</span>
+                     <span class="hljs-tag">&lt;h1</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"title"</span><span class="hljs-tag">&gt;</span>
+                        Bulma
+                      <span class="hljs-tag">&lt;/h1&gt;</span>
+                
+                      <span class="hljs-tag">&lt;p</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"subtitle"</span><span class="hljs-tag">&gt;</span>
+                        Modern CSS framework based on <span class="hljs-tag">&lt;a</span> <span class="hljs-attribute">href=</span><span class="hljs-name">"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox"</span><span class="hljs-tag">&gt;</span>Flexbox<span class="hljs-tag">&lt;/a&gt;</span>
+                      <span class="hljs-tag">&lt;/p&gt;</span>
+                
+                      <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"field"</span><span class="hljs-tag">&gt;</span>
+                        <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"control"</span><span class="hljs-tag">&gt;</span>
+                          <span class="hljs-tag">&lt;input</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"input"</span> <span class="hljs-attribute">type=</span><span class="hljs-name">"text"</span> <span class="hljs-attribute">placeholder=</span><span class="hljs-name">"Input"</span><span class="hljs-tag">&gt;</span>
+                        <span class="hljs-tag">&lt;/div&gt;</span>
+                      <span class="hljs-tag">&lt;/div&gt;</span>
+                
+                      <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"field"</span><span class="hljs-tag">&gt;</span>
+                        <span class="hljs-tag">&lt;p</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"control"</span><span class="hljs-tag">&gt;</span>
+                          <span class="hljs-tag">&lt;span</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"select"</span><span class="hljs-tag">&gt;</span>
+                            <span class="hljs-tag">&lt;select&gt;</span>
+                              <span class="hljs-tag">&lt;option&gt;</span>Select dropdown<span class="hljs-tag">&lt;/option&gt;</span>
+                            <span class="hljs-tag">&lt;/select&gt;</span>
+                          <span class="hljs-tag">&lt;/span&gt;</span>
+                        <span class="hljs-tag">&lt;/p&gt;</span>
+                      <span class="hljs-tag">&lt;/div&gt;</span>
+                
+                      <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"buttons"</span><span class="hljs-tag">&gt;</span>
+                        <span class="hljs-tag">&lt;a</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"button is-primary"</span><span class="hljs-tag">&gt;</span>Primary<span class="hljs-tag">&lt;/a&gt;</span>
+                        <span class="hljs-tag">&lt;a</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"button is-link"</span><span class="hljs-tag">&gt;</span>Link<span class="hljs-tag">&lt;/a&gt;</span>
+                      <span class="hljs-tag">&lt;/div&gt;</span>
+                  <span class="hljs-tag">&lt;/body&gt;</span>
+                <span class="hljs-tag">&lt;/html&gt;</span>
+              </code></pre>
+              </figure>
+              <div class="content">
+                <p>
+                  Save this file as <code>mypage.html</code> in the <code>dist</code> folder.
+                </p>
+                <p>
+                  Notice the <code>css/mystyles.css</code> path for your stylesheet. This will be the location of the CSS file we will generate with Sass.
+                </p>
+                <p>
+                  Open the page in your browser:
+                </p>
+              </div>
+              <figure class="bd-figure">
+                <img
+                  src="https://bulma.io/images/customize/custom-bulma-01-unstyled.png"
+                  srcset="https://bulma.io/images/customize/custom-bulma-01-unstyled.png 1x,
+                  https://bulma.io/images/customize/custom-bulma-01-unstyled@2x.png 2x"
+                  alt="Bulma unstyled"
+                  width="600"
+                  height="300">
+                <figcaption>
+                  The unstyled page
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="with-webpack-scripts" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                8. Add node scripts to build your bundle
+                </span>
+                <a class="bd-anchor-link" href="#with-webpack-scripts">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  In <code>package.json</code>, add the following:
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-html" data-lang="html">
+                  "scripts": {
+                  "build": "webpack --mode production"
+                },
+              </code></pre>
+              </figure>
+              <div class="content">
+                <p>
+                  To test it out, go in your <strong>terminal</strong> and run the following command:
+                </p>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-bash" data-lang="bash">npm run build
+
+                </code></pre>
+              </figure>
+            </div>
+          </div>
+          <hr>
+          <div class="columns">
+            <div class="column is-4-tablet is-3-desktop">
+              <hr class="hr" style="margin-bottom: 0;">
+              <h3 id="with-webpack-bulma" class="title is-4 is-spaced bd-anchor-title">
+                <span class="bd-anchor-name">
+                9. Add your own Bulma styles
+                </span>
+                <a class="bd-anchor-link" href="#with-webpack-bulma">
+                #
+                </a>
+              </h3>
+            </div>
+            <div class="column is-offset-1 is-7-tablet is-8-desktop">
+              <div class="content">
+                <p>
+                  Replace the content of the <code>mystyles.scss</code> file with the following:
+                </p>
+              </div>
+              <div class="highlight-full">
+                <figure class="highlight">
+                  <pre><code class="language-scss" data-lang="scss"><span class="k">@charset</span> <span class="s2">"utf-8"</span><span class="p">;</span>
+                
+                <span class="c1">// Import a Google Font
+                </span><span class="k">@import</span> <span class="sx">url('https://fonts.googleapis.com/css?family=Nunito:400,700')</span><span class="p">;</span>
+                
+                <span class="c1">// Set your brand colors
+                </span><span class="nv">$purple</span><span class="p">:</span> <span class="mh">#8A4D76</span><span class="p">;</span>
+                <span class="nv">$pink</span><span class="p">:</span> <span class="mh">#FA7C91</span><span class="p">;</span>
+                <span class="nv">$brown</span><span class="p">:</span> <span class="mh">#757763</span><span class="p">;</span>
+                <span class="nv">$beige-light</span><span class="p">:</span> <span class="mh">#D0D1CD</span><span class="p">;</span>
+                <span class="nv">$beige-lighter</span><span class="p">:</span> <span class="mh">#EFF0EB</span><span class="p">;</span>
+                
+                <span class="c1">// Update Bulma's global variables
+                </span><span class="nv">$family-sans-serif</span><span class="p">:</span> <span class="s2">"Nunito"</span><span class="o">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+                <span class="nv">$grey-dark</span><span class="p">:</span> <span class="nv">$brown</span><span class="p">;</span>
+                <span class="nv">$grey-light</span><span class="p">:</span> <span class="nv">$beige-light</span><span class="p">;</span>
+                <span class="nv">$primary</span><span class="p">:</span> <span class="nv">$purple</span><span class="p">;</span>
+                <span class="nv">$link</span><span class="p">:</span> <span class="nv">$pink</span><span class="p">;</span>
+                <span class="nv">$widescreen-enabled</span><span class="p">:</span> <span class="bp">false</span><span class="p">;</span>
+                <span class="nv">$fullhd-enabled</span><span class="p">:</span> <span class="bp">false</span><span class="p">;</span>
+                
+                <span class="c1">// Update some of Bulma's component variables
+                </span><span class="nv">$body-background-color</span><span class="p">:</span> <span class="nv">$beige-lighter</span><span class="p">;</span>
+                <span class="nv">$control-border-width</span><span class="p">:</span> <span class="m">2px</span><span class="p">;</span>
+                <span class="nv">$input-border-color</span><span class="p">:</span> <span class="nb">transparent</span><span class="p">;</span>
+                <span class="nv">$input-shadow</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+                
+                <span class="c1">// Import only what you need from Bulma
+                </span><span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/utilities/_all.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/base/_all.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/elements/button.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/elements/container.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/elements/title.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/form/_all.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/components/navbar.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/layout/hero.sass"</span><span class="p">;</span>
+                <span class="k">@import</span> <span class="s2">"../node_modules/bulma/sass/layout/section.sass"</span><span class="p">;</span>
+              </code></pre>
+                </figure>
+              </div>
+              <div class="content">
+                <p>
+                  Rebuild the CSS to see the result:
+                </p>
+              </div>
+              <figure class="bd-figure" style="background-color: #EFF0EB;">
+                <img
+                  src="https://bulma.io/images/customize/custom-bulma-03-styled.png"
+                  srcset="https://bulma.io/images/customize/custom-bulma-03-styled.png 1x,
+                  https://bulma.io/images/customize/custom-bulma-03-styled@2x.png 2x"
+                  alt="Bulma customized"
+                  width="600"
+                  height="300">
+                <figcaption>
+                  Bulma's customized theme
+                </figcaption>
+              </figure>
+              <div class="content">
+                <p>
+                  And voilà! You've managed to install and customize Bulma.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /With Webpack section -->
+    <!--Footer-->
+    <footer class="footer">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-4">
+            <img class="footer-logo" src="assets/images/logo/logo-white.png" width="112" height="28" alt="">
+            <p class="footer-logo-text is-portrait-padded">
+              Lorem ipsum sit dolor amet is a dummy text used by
+              typographers and the web industry. It’s highly likely that
+              you’ve already seen it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+    <!-- Concatenated js plugins -->
+    <script src="assets/js/app.js"></script>
+    <script src="../../unpkg.com/animejs%402.2.0/anime.min.js"></script>
+    <!-- Bulkit js -->
+    <script src="assets/js/main.js"></script>
+    <script src="https://bulma.io/vendor/clipboard-1.7.1.min.js"></script>
+    <script src="https://bulma.io/vendor/js.cookie-2.1.4.min.js"></script>
+    <script src="https://bulma.io/lib/main.js?v=201909191709"></script>
+  </body>
+  <!-- Mirrored from bulkitv2.cssninja.io/one-pager-1/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Sep 2019 08:55:29 GMT -->
+</html>

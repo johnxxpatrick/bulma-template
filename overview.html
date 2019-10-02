@@ -1,0 +1,1642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Mirrored from bulkitv2.cssninja.io/one-pager-1/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Sep 2019 08:55:20 GMT -->
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" href="https://bulma.io/css/bulma-docs.min.css?v=201909191709">
+    <link rel="canonical" href="form.html">
+    <!-- Shared social media -->
+    <meta property="og:title" content="Form controls">
+    <meta name="twitter:title" content="Form controls">
+    <meta property="og:description" content="The indispensable form controls, designed for maximum clarity">
+    <meta name="twitter:description" content="The indispensable form controls, designed for maximum clarity">
+    <title> Padeian :: Bulma Template</title>
+    <!--Core CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bulma.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/core.css">
+    <link rel="stylesheet" href="assets/css/core-v2.css">
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+    <div class="pageloader"></div>
+    <div class="infraloader is-active"></div>
+    <!-- Side navigation -->
+    <div class="side-navigation-menu">
+      <!-- Navigation menu -->
+      <div id="demo-pages" class="navigation-menu-wrapper animated preFadeInRight fadeInRight">
+        <!-- Navigation Header -->
+        <div class="navigation-menu-header">
+          <span>Bulma Templates</span>
+          <a class="ml-auto hamburger-btn navigation-close" href="javascript:void(0);">
+          <span class="menu-toggle">
+          <span class="icon-box-toggle">
+          <span class="rotate">
+          <i class="icon-line-top"></i>
+          <i class="icon-line-center"></i>
+          <i class="icon-line-bottom"></i>
+          </span>
+          </span>
+          </span>
+          </a>
+        </div>
+        <!-- Navigation Body -->
+        <ul class="navigation-menu">
+          <li class="has-children">
+            <a class="parent-link" href="#"><span class="material-icons">view_quilt</span>Overview</a>
+            <ul>
+              <li><a class="is-submenu" href="overview.html#overview-start">Start</a></li>
+              <li><a class="is-submenu" href="overview.html#overview-classes">Classes</a></li>
+              <li><a class="is-submenu" href="overview.html#overview-modularity">Modularity</a></li>
+              <li><a class="is-submenu" href="overview.html#overview-responsiveness">Responsiveness</a></li>
+              <li><a class="is-submenu" href="overview.html#overview-colors">Colors</a></li>
+              <li><a class="is-submenu" href="overview.html#overview-functions">Functions</a></li>
+              <li><a class="is-submenu" href="overview.html#overview-mixins">Mixins</a></li>
+            </ul>
+          </li>
+          <li class="has-children">
+            <a class="parent-link" href="#"><span class="material-icons">view_quilt</span>Customize</a>
+            <ul>
+              <li><a class="is-submenu" href="customize.html#customize-concepts">Concepts</a></li>
+              <li><a class="is-submenu" href="customize.html#customize-variable">Variable</a></li>
+              <li><a class="is-submenu" href="customize.html#customize-node-sass">With node-sass</a></li>
+              <li><a class="is-submenu" href="customize.html#customize-sass-cli">With Sass CLI</a></li>
+              <li><a class="is-submenu" href="customize.html#customize-with-webpack">With webpack</a></li>
+            </ul>
+          </li>
+          <li class="has-children">
+            <a class="parent-link" href="#"><span class="material-icons">view_quilt</span>Modifiers</a>
+            <ul>
+              <li><a class="is-submenu" href="modifiers.html#modifiers-syntax">Syntax</a></li>
+              <li><a class="is-submenu" href="modifiers.html#modifiers-helpers">Helpers</a></li>
+              <li><a class="is-submenu" href="modifiers.html#modifiers-responsive">Responsive Helpers</a></li>
+              <li><a class="is-submenu" href="modifiers.html#modifiers-color">Color Helpers</a></li>
+              <li><a class="is-submenu" href="modifiers.html#modifiers-typography">Typography Helpers</a></li>
+            </ul>
+          </li>
+          <li class="has-children">
+            <a class="parent-link" href="#"><span class="material-icons">view_quilt</span>Columns</a>
+            <ul>
+              <li><a class="is-submenu" href="columns.html#columns-basics">Basics</a></li>
+              <li><a class="is-submenu" href="columns.html#columns-sizes">Sizes</a></li>
+              <li><a class="is-submenu" href="columns.html#columns-responsiveness">Responsiveness</a></li>
+              <li><a class="is-submenu" href="columns.html#columns-nesting">Nesting</a></li>
+              <li><a class="is-submenu" href="columns.html#columns-gap">Gap</a></li>
+              <li><a class="is-submenu" href="columns.html#columns-options">Options</a></li>
+            </ul>
+          </li>
+          <li class="has-children">
+            <a class="parent-link" href="#"><span class="material-icons">view_quilt</span>Layout</a>
+            <ul>
+              <li><a class="is-submenu" href="layout.html#lyt-container">Container</a></li>
+              <li><a class="is-submenu" href="layout.html#lyt-level">Level</a></li>
+              <li><a class="is-submenu" href="layout.html#lyt-medobj">Media Object</a></li>
+              <li><a class="is-submenu" href="layout.html#lyt-hero">Hero</a></li>
+              <li><a class="is-submenu" href="layout.html#lyt-section">Section</a></li>
+              <li><a class="is-submenu" href="layout.html#lyt-footer">Footer</a></li>
+              <li><a class="is-submenu" href="layout.html#lyt-tiles">Tiles</a></li>
+            </ul>
+          </li>
+          <li class="has-children">
+            <a class="parent-link" href="#"><span class="material-icons">view_quilt</span>Form</a>
+            <ul>
+              <li><a class="is-submenu" href="form.html#form-general">General</a></li>
+              <li><a class="is-submenu" href="form.html#form-input">Input</a></li>
+              <li><a class="is-submenu" href="form.html#form-textarea">Textarea</a></li>
+              <li><a class="is-submenu" href="form.html#form-select">Select</a></li>
+              <li><a class="is-submenu" href="form.html#form-checkbox">Checkbox</a></li>
+              <li><a class="is-submenu" href="form.html#form-radio">Radio</a></li>
+              <li><a class="is-submenu" href="form.html#form-file">File</a></li>
+            </ul>
+          </li>
+          <li class="has-children">
+            <a class="parent-link" href="#"><span class="material-icons">view_quilt</span>Elements</a>
+            <ul>
+              <li><a class="is-submenu" href="elements.html#elements-box">Box</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-button">Button</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-content">Content</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-delete">Delete</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-icon">Icon</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-image">Image</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-notification">Notification</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-progressbar">Progress bars</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-table">Table</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-tag">Tag</a></li>
+              <li><a class="is-submenu" href="elements.html#elements-title">Title</a></li>
+            </ul>
+          </li>
+          <li class="has-children">
+            <a class="parent-link" href="#"><span class="material-icons">view_quilt</span>Components</a>
+            <ul>
+              <li><a class="is-submenu" href="components.html#components-breadcrumb">Breadcrumb</a></li>
+              <li><a class="is-submenu" href="components.html#components-card">Card</a></li>
+              <li><a class="is-submenu" href="components.html#components-dropdown">Dropdown</a></li>
+              <li><a class="is-submenu" href="components.html#components-menu">Menu</a></li>
+              <li><a class="is-submenu" href="components.html#components-message">Message</a></li>
+              <li><a class="is-submenu" href="components.html#components-modal">Modal</a></li>
+              <li><a class="is-submenu" href="components.html#components-navbar">Navbar</a></li>
+              <li><a class="is-submenu" href="components.html#components-pagination">Pagination</a></li>
+              <li><a class="is-submenu" href="components.html#components-panel">Panel</a></li>
+              <li><a class="is-submenu" href="components.html#components-tabs">Tabs</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- /Navigation menu -->
+    </div>
+    <!-- /Side navigation -->
+    <nav class="navbar is-transparent is-fixed-top is-faded">
+      <div class="container">
+        <div class="navbar-brand">
+          <!-- Sidebar Trigger -->
+          <a id="navigation-trigger" class="navbar-item hamburger-btn" href="javascript:void(0);">
+          <span class="menu-toggle">
+          <span class="icon-box-toggle">
+          <span class="rotate">
+          <i class="icon-line-top"></i>
+          <i class="icon-line-center"></i>
+          <i class="icon-line-bottom"></i>
+          </span>
+          </span>
+          </span>
+          </a>
+          <a class="navbar-item" href="index.html">
+          <img class="light-logo" src="assets/images/logo/logo-white.png" width="110" height="100" alt="">
+          <img class="dark-logo is-hidden" src="assets/images/logo/logo-dark.png" width="110" height="100" alt="">
+          </a>
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div class="navbar-menu">
+          <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link navbar-item has-hover" href="#overview-start"> Start</a>
+              <div class="navbar-dropdown is-boxed is-medium">
+                <!-- Dropdown item -->
+                <a class="navbar-item is-menu" href="#code-requirements">
+                <span>Code Requirements</span>
+                </a>
+                <a class="navbar-item is-menu" href="#starter-template">
+                <span>Starter Template</span>
+                </a>
+                <a class="navbar-item is-menu" href="#bulma-start">
+                <span>Bulma Start</span>
+                </a>
+              </div>
+            </div>
+            <a href="#overview-classes" class="navbar-item has-hover">
+            Classes
+            </a> 
+            <a href="#overview-modularity" class="navbar-item has-hover">
+            Modularity
+            </a> 
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link navbar-item has-hover" href="#overview-responsiveness"> Responsiveness</a>
+              <div class="navbar-dropdown is-boxed is-medium">
+                <!-- Dropdown item -->
+                <a class="navbar-item is-menu" href="#vertical-by-default">
+                <span>Vertical by Default</span>
+                </a>
+                <a class="navbar-item is-menu" href="#breakpoints">
+                <span>Breakpoints</span>
+                </a>
+                <a class="navbar-item is-menu" href="#disabling-breakpoints">
+                <span>Disabling Breakpoints</span>
+                </a>
+                <a class="navbar-item is-menu" href="#variables">
+                <span>Variables</span>
+                </a>
+              </div>
+            </div>
+            <a href="#overview-colors" class="navbar-item has-hover">
+            Colors
+            </a> 
+            <a href="#overview-functions" class="navbar-item has-hover">
+            Functions
+            </a> 
+            <a href="#overview-mixins" class="navbar-item has-hover">
+            Mixins
+            </a> 
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <div class="hero is-large">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns has-text-centered">
+            <!-- Caption -->
+            <div class="column is-8 is-offset-2 is-hero-caption">
+              <h1 class="title is-1 is-light">
+                <span id="landing-title">OVERVIEW</span>
+              </h1>
+              <h2 class="subtitle is-5 is-light">
+                An overview of what Bulma as a <b>framework</b> is all about
+              </h2>
+              <div class="button-wrap">
+                <a href="#form-general" class="button cta-button accent-button is-raised is-rounded">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hero Shape -->
+      <div class="hero-shape is-4v" alt=""></div>
+    </div>
+    <!-- Start section -->
+    <section id="overview-start" class="section is-medium">
+      <div class="container">
+        <!-- Start Title -->
+        <div class="section-title-wrapper">
+          <div class="bg-number">1</div>
+          <h2 class="title section-title has-text-centered dark-text">GETTING STARTED WITH BULMA</h2>
+          <div class="subtitle has-text-centered is-tablet-padded">You only need <b>1 CSS file to use Bulma</b></div>
+        </div>
+        <!-- /Start Title -->
+        <div class="bd-content">
+          <div class="content">
+            <p>
+              There are several ways to <strong>get started</strong> with Bulma. You can either:
+            </p>
+            <ol>
+              <li>
+                use <strong>npm</strong> to install the Bulma package
+              </li>
+              <li>
+                use the cdnjs <strong>CDN</strong> to link to the Bulma stylesheet
+              </li>
+              <li>
+                use the <strong>GitHub repository</strong> to get the latest development version
+              </li>
+            </ol>
+          </div>
+          <article class="media is-large">
+            <div class="media-left">
+              <p class="title is-5">1</p>
+            </div>
+            <div class="media-content">
+              <p class="title is-5">
+                Use <strong>NPM</strong> <em>(recommended)</em>:
+              </p>
+<figure class="highlight">
+  <pre><code class="language-bash" data-lang="bash">
+    npm install bulma
+  </code></pre>
+</figure>
+            </div>
+          </article>
+          <article class="media is-large">
+            <div class="media-left">
+              <p class="title is-5">2</p>
+            </div>
+            <div class="media-content">
+              <p class="title is-5">
+                Use the <a href="https://cdnjs.com/" target="_blank">cdnjs</a> <strong>CDN</strong>
+                <br>
+                <a href="https://cdnjs.com/libraries/bulma">https://cdnjs.com/libraries/bulma</a>
+              </p>
+            </div>
+          </article>
+          <article class="media is-large">
+            <div class="media-left">
+              <p class="title is-5">3</p>
+            </div>
+            <div class="media-content">
+              <p class="title is-5">
+                Download from the <strong>repository</strong>
+                <br>
+                <a href="https://github.com/jgthms/bulma/tree/master/css">https://github.com/jgthms/bulma/tree/master/css</a>
+              </p>
+            </div>
+          </article>
+          <hr>
+          <div class="message is-info">
+            <div class="message-header">
+              Font Awesome icons
+            </div>
+            <div class="message-body">
+              <p>If you want to use icons with Bulma, don't forget to include <a href="https://fontawesome.com">Font Awesome 5</a>:</p>
+<figure class="highlight">
+  <pre><code class="language-html" data-lang="html">
+    <span class="hljs-tag">&lt;script </span><span class="hljs-attribute">defer</span> <span class="hljs-attribute">src=</span><span class="hljs-name">"https://use.fontawesome.com/releases/v5.3.1/js/all.js"</span><span class="hljs-tag">&gt;&lt;/script&gt;</span>
+  </code></pre>
+</figure>
+            </div>
+          </div>
+          <hr class="hr" style="margin-bottom: 0;">
+          <h3 id="code-requirements" class="title is-4 is-spaced bd-anchor-title">
+            <span class="bd-anchor-name">
+            Code requirements
+            </span>
+            <a class="bd-anchor-link" href="#code-requirements">
+            #
+            </a>
+          </h3>
+          <div class="content">
+            <p>
+              For Bulma to work correctly, you need to make your webpage <strong>responsive</strong>.
+            </p>
+          </div>
+          <article class="media is-large">
+            <div class="media-left">
+              <p class="title is-5">1</p>
+            </div>
+            <div class="media-content">
+              <p class="title is-5">
+                Use the <strong>HTML5 doctype</strong>
+              </p>
+<figure class="highlight">
+  <pre><code class="language-html" data-lang="html">
+    <span class="cp">&lt;!DOCTYPE html&gt;</span>
+  </code></pre>
+</figure>
+            </div>
+          </article>
+          <article class="media is-large">
+            <div class="media-left">
+              <p class="title is-5">2</p>
+            </div>
+            <div class="media-content">
+              <p class="title is-5">
+                Add the responsive <strong>viewport</strong> meta tag
+              </p>
+<figure class="highlight">
+  <pre><code class="language-html" data-lang="html">
+    <span class="hljs-tag">&lt;meta</span> <span class="hljs-attribute">name=</span><span class="hljs-name">"viewport"</span> <span class="hljs-attribute">content=</span><span class="hljs-name">"width=device-width, initial-scale=1"</span><span class="hljs-tag">&gt;</span>
+  </code></pre>
+</figure>
+            </div>
+          </article>
+          <hr class="hr" style="margin-bottom: 0;">
+          <h3 id="starter-template" class="title is-4 is-spaced bd-anchor-title">
+            <span class="bd-anchor-name">
+            Starter template
+            </span>
+            <a class="bd-anchor-link" href="#starter-template">
+            #
+            </a>
+          </h3>
+          <div class="content">
+            <p>
+              If you want to get started <strong>right away</strong>, you can use this <strong>HTML starter template</strong>. Just copy/paste this code in a file and save it on your computer.
+            </p>
+          </div>
+<div class="bd-example highlight-full">
+  <figure class="highlight">
+    <pre><code class="language-html" data-lang="html">
+      <span class="cp">&lt;!DOCTYPE html&gt;</span>
+      <span class="hljs-tag">&lt;html&gt;</span>
+        <span class="hljs-tag">&lt;head&gt;</span>
+          <span class="hljs-tag">&lt;meta</span> <span class="hljs-attribute">charset=</span><span class="hljs-name">"utf-8"</span><span class="hljs-tag">&gt;</span>
+          <span class="hljs-tag">&lt;meta</span> <span class="hljs-attribute">name=</span><span class="hljs-name">"viewport"</span> <span class="hljs-attribute">content=</span><span class="hljs-name">"width=device-width, initial-scale=1"</span><span class="hljs-tag">&gt;</span>
+          <span class="hljs-tag">&lt;title&gt;</span>Hello Bulma!<span class="hljs-tag">&lt;/title&gt;</span>
+          <span class="hljs-tag">&lt;link</span> <span class="hljs-attribute">rel=</span><span class="hljs-name">"stylesheet"</span> <span class="hljs-attribute">href=</span><span class="hljs-name">"https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"</span><span class="hljs-tag">&gt;</span>
+          <span class="hljs-tag">&lt;script </span><span class="hljs-attribute">defer</span> <span class="hljs-attribute">src=</span><span class="hljs-name">"https://use.fontawesome.com/releases/v5.3.1/js/all.js"</span><span class="hljs-tag">&gt;&lt;/script&gt;</span>
+        <span class="hljs-tag">&lt;/head&gt;</span>
+        <span class="hljs-tag">&lt;body&gt;</span>
+          <span class="hljs-tag">&lt;section</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"section"</span><span class="hljs-tag">&gt;</span>
+            <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"container"</span><span class="hljs-tag">&gt;</span>
+              <span class="hljs-tag">&lt;h1</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"title"</span><span class="hljs-tag">&gt;</span>
+                Hello World
+              <span class="hljs-tag">&lt;/h1&gt;</span>
+              <span class="hljs-tag">&lt;p</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"subtitle"</span><span class="hljs-tag">&gt;</span>
+                My first website with <span class="hljs-tag">&lt;strong&gt;</span>Bulma<span class="hljs-tag">&lt;/strong&gt;</span>!
+              <span class="hljs-tag">&lt;/p&gt;</span>
+            <span class="hljs-tag">&lt;/div&gt;</span>
+          <span class="hljs-tag">&lt;/section&gt;</span>
+        <span class="hljs-tag">&lt;/body&gt;</span>
+      <span class="hljs-tag">&lt;/html&gt;</span>
+    </code></pre>
+  </figure>
+</div>
+          <hr class="hr" style="margin-bottom: 0;">
+          <h3 id="bulma-start" class="title is-4 is-spaced bd-anchor-title">
+            <span class="bd-anchor-name">
+            bulma-start
+            </span>
+            <a class="bd-anchor-link" href="#bulma-start">
+            #
+            </a>
+          </h3>
+          <div class="content">
+            <p>
+              <code><a href="https://bulma.io/bulma-start/">bulma-start</a></code> is a tiny npm package that includes the <code>npm</code> dependencies you need to build your own website with Bulma.
+            </p>
+            <p>
+              <a class="button is-link" href="https://bulma.io/bulma-start/">Check it out</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Start section -->
+    <!-- CSS Classes section -->
+    <section id="overview-classes" class="section is-medium is-grey">
+      <div class="container">
+        <!-- CSS Classes Title -->
+        <div class="section-title-wrapper">
+          <div class="bg-number">2</div>
+          <h2 class="title section-title has-text-centered dark-text">CSS CLASSES</h2>
+          <div class="subtitle has-text-centered is-tablet-padded">Bulma is simply a <b>collection</b> of CSS classes. Write the HTML code you want.</div>
+        </div>
+        <!-- /CSS Classes Title -->
+        <div class="bd-content">
+          <div class="content">
+            <p>
+              Bulma is a <strong>CSS</strong> framework, meaning that the end result is simply a <strong>single</strong> <code>.css</code> file:
+              <br>
+              <a href="https://github.com/jgthms/bulma/blob/master/css/bulma.css">https://github.com/jgthms<wbr>/bulma<wbr>/blob<wbr>/master<wbr>/css<wbr>/bulma.css</a>
+            </p>
+            <p>
+              Because Bulma solely comprises CSS classes, the HTML code you write has <strong>no impact</strong> on the styling of your page. That's why <code>.input</code> exists as a class, so you can choose <em>which</em> <code>&lt;input type="text"&gt;</code> elements you want to style.
+            </p>
+            <p>
+              Bulma only styles <strong>generic</strong> tags directly <strong>twice</strong>:
+            </p>
+            <ul>
+              <li>
+                <a href="https://github.com/jgthms/bulma/blob/master/sass/base/generic.sass"><code>generic.sass</code></a> to define a basic style for your page
+              </li>
+              <li>
+                the <a href="elements.html#elements-content"><code>.content</code> class </a> to use for <em>any</em> textual content, like WYSIWYG
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /CSS Classes section -->
+    <!-- Modularity section -->
+    <section id="overview-modularity" class="section is-medium">
+      <div class="container">
+        <!-- Modularity Title -->
+        <div class="section-title-wrapper">
+          <div class="bg-number">3</div>
+          <h2 class="title section-title has-text-centered dark-text">MODULARITY</h2>
+          <div class="subtitle has-text-centered is-tablet-padded">Just import what you <b>need</b></div>
+        </div>
+        <!-- /Modularity Title -->
+        <div class="content">
+          <p>
+            Bulma consists of <strong>39</strong> <code>.sass</code> files that you can import <strong>individually.</strong>
+          </p>
+          <p>
+            For example, let's say you only want the Bulma <strong>columns.</strong>
+            <br>
+            The file is located in the <code>bulma/sass/grid</code> folder.
+            <br>
+            Simply <strong>import</strong> the utilities dependencies, and then the files you need directly:
+          </p>
+<figure class="highlight">
+  <pre><code class="language-sass" data-lang="sass">
+    <span class="k">@import</span> <span class="hljs-name">"bulma/sass/utilities/_all.sass"</span>
+    <span class="k">@import</span> <span class="hljs-name">"bulma/sass/grid/columns.sass"</span>
+  </code></pre>
+</figure>
+          <p>
+            Now you can use the classes <code>.columns</code> (for the container) and <code>.column</code> directly:
+          </p>
+<figure class="highlight">
+  <pre><code class="language-html" data-lang="html">
+    <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"columns"</span><span class="hljs-tag">&gt;</span>
+      <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"column"</span><span class="hljs-tag">&gt;</span>1<span class="hljs-tag">&lt;/div&gt;</span>
+      <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"column"</span><span class="hljs-tag">&gt;</span>2<span class="hljs-tag">&lt;/div&gt;</span>
+      <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"column"</span><span class="hljs-tag">&gt;</span>3<span class="hljs-tag">&lt;/div&gt;</span>
+      <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"column"</span><span class="hljs-tag">&gt;</span>4<span class="hljs-tag">&lt;/div&gt;</span>
+      <span class="hljs-tag">&lt;div</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"column"</span><span class="hljs-tag">&gt;</span>5<span class="hljs-tag">&lt;/div&gt;</span>
+    <span class="hljs-tag">&lt;/div&gt;</span>
+  </code></pre>
+</figure>
+          <hr>
+          <p>
+            What if you only want the <strong>button</strong> styles instead?
+          </p>
+<figure class="highlight">
+  <pre><code class="language-sass" data-lang="sass">
+    <span class="k">@import</span> <span class="hljs-name">"bulma/sass/utilities/_all.sass"</span>
+    <span class="k">@import</span> <span class="hljs-name">"bulma/sass/elements/button.sass"</span>
+  </code></pre>
+</figure>
+          <p>
+            You can now use the <code>.button</code> class, and all its modifiers:
+          </p>
+          <ul>
+            <li>
+              <code>.is-active</code>
+            </li>
+            <li>
+              <code>.is-primary</code>,
+              <code>.is-info</code>,
+              <code>.is-success</code>...
+            </li>
+            <li>
+              <code>.is-small</code>,
+              <code>.is-medium</code>,
+              <code>.is-large</code>
+            </li>
+            <li>
+              <code>.is-outlined</code>,
+              <code>.is-inverted</code>,
+              <code>.is-link</code>
+            </li>
+            <li>
+              <code>.is-loading</code>,
+              <code>[disabled]</code>
+            </li>
+          </ul>
+          <div class="bd-snippet-code highlight-full">
+<figure class="highlight">
+  <pre><code class="language-html" data-lang="html">
+    <span class="hljs-tag">&lt;button</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"button"</span><span class="hljs-tag">&gt;</span>Button<span class="hljs-tag">&lt;/button&gt;</span>
+    <span class="hljs-tag">&lt;button</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"button is-primary"</span><span class="hljs-tag">&gt;</span>Primary button<span class="hljs-tag">&lt;/button&gt;</span>
+    <span class="hljs-tag">&lt;button</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"button is-large"</span><span class="hljs-tag">&gt;</span>Large button<span class="hljs-tag">&lt;/button&gt;</span>
+    <span class="hljs-tag">&lt;button</span> <span class="hljs-attribute">class=</span><span class="hljs-name">"button is-loading"</span><span class="hljs-tag">&gt;</span>Loading button<span class="hljs-tag">&lt;/button&gt;</span>
+  </code></pre>
+</figure>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- /Modularity section -->
+    <!-- Responsiveness section -->
+    <section id="overview-responsiveness" class="section is-medium is-grey">
+      <div class="container">
+        <!-- Responsiveness Title -->
+        <div class="section-title-wrapper">
+          <div class="bg-number">4</div>
+          <h2 class="title section-title has-text-centered dark-text">RESPONSIVENESS</h2>
+          <div class="subtitle has-text-centered is-tablet-padded">Bulma is a <b>mobile-first</b> framework</div>
+        </div>
+        <!-- /Responsiveness Title -->
+        <div class="bd-content">
+          <hr class="hr" style="margin-bottom: 0;">
+          <h3 id="vertical-by-default" class="title is-4 is-spaced bd-anchor-title">
+            <span class="bd-anchor-name">
+            Vertical by default
+            </span>
+            <a class="bd-anchor-link" href="#vertical-by-default">
+            #
+            </a>
+          </h3>
+          <div class="content">
+            <p>
+              Every element in Bulma is <strong>mobile-first</strong> and optimizes for <strong>vertical reading</strong>, so by default on mobile:
+            </p>
+            <ul>
+              <li><code>columns</code> are stacked vertically</li>
+              <li>the <code>level</code> component will show its children stacked vertically</li>
+              <li>the <code>nav</code> menu will be hidden</li>
+            </ul>
+            <p>You can however enforce the <strong>horizontal</strong> layout for both <code>columns</code> or <code>level</code> by appending the <code>is-mobile</code> modifier.</p>
+          </div>
+          <hr class="hr" style="margin-bottom: 0;">
+          <h3 id="breakpoints" class="title is-4 is-spaced bd-anchor-title">
+            <span class="bd-anchor-name">
+            Breakpoints
+            </span>
+            <a class="bd-anchor-link" href="#breakpoints">
+            #
+            </a>
+          </h3>
+          <div class="content">
+            <p>Bulma has <a href="https://github.com/jgthms/bulma/blob/master/sass/utilities/initial-variables.sass#L46,L57" target="_blank">5 breakpoints</a>:</p>
+            <ul>
+              <li><code>mobile</code>: up to <code>768px</code></li>
+              <li><code>tablet</code>: from <code>769px</code></li>
+              <li><code>desktop</code>: from <code>1024px</code></li>
+              <li><code>widescreen</code>: from <code>1216px</code></li>
+              <li><code>fullhd</code>: from <code>1408px</code></li>
+            </ul>
+            <p>Bulma uses <a href="https://github.com/jgthms/bulma/blob/master/sass/utilities/mixins.sass#L81,L129" target="_blank">9 responsive mixins</a>:</p>
+            <ul>
+              <li>
+                <code>=mobile</code><br>
+                until <code>768px</code>
+              </li>
+              <li>
+                <code>=tablet</code><br>
+                from <code>769px</code>
+              </li>
+              <li>
+                <code>=tablet-only</code><br>
+                from <code>769px</code> and until <code>1023px</code>
+              </li>
+              <li>
+                <code>=touch</code><br>
+                until <code>1023px</code>
+              </li>
+              <li>
+                <code>=desktop</code><br>
+                from <code>1024px</code>
+              </li>
+              <li>
+                <code>=desktop-only</code><br>
+                from <code>1024px</code> and until <code>1215px</code>
+              </li>
+              <li>
+                <code>=widescreen</code><br>
+                from <code>1216px</code>
+              </li>
+              <li>
+                <code>=widescreen-only</code><br>
+                from <code>1216px</code> and until <code>1407px</code>
+              </li>
+              <li>
+                <code>=fullhd</code><br>
+                from <code>1408px</code>
+              </li>
+            </ul>
+          </div>
+          <div class="table-container">
+            <table class="table is-bordered">
+              <thead>
+                <tr>
+                  <th style="width: 20%;">
+                    Mobile<br>
+                    Up to <code>768px</code>
+                  </th>
+                  <th style="width: 20%;">
+                    Tablet<br>
+                    Between <code>769px</code> and <code>1023px</code>
+                  </th>
+                  <th style="width: 20%;">
+                    Desktop<br>
+                    Between <code>1024px</code> and <code>1215px</code>
+                  </th>
+                  <th style="width: 20%;">
+                    Widescreen<br>
+                    Between <code>1216px</code> and <code>1407px</code>
+                  </th>
+                  <th style="width: 20%;">
+                    FullHD<br>
+                    <code>1408px</code> and above
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <p class="notification is-success">mobile</p>
+                  </td>
+                  <td colspan="4">
+                    <p class="notification">-</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="notification">-</p>
+                  </td>
+                  <td colspan="4">
+                    <p class="notification is-success">tablet</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <p class="notification">-</p>
+                  </td>
+                  <td colspan="3">
+                    <p class="notification is-success">desktop</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <p class="notification">-</p>
+                  </td>
+                  <td colspan="2">
+                    <p class="notification is-success">widescreen</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4">
+                    <p class="notification">-</p>
+                  </td>
+                  <td>
+                    <p class="notification is-success">fullhd</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="notification">-</p>
+                  </td>
+                  <td>
+                    <p class="notification is-success">tablet-only</p>
+                  </td>
+                  <td colspan="3">
+                    <p class="notification">-</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <p class="notification">-</p>
+                  </td>
+                  <td>
+                    <p class="notification is-success">desktop-only</p>
+                  </td>
+                  <td colspan="2">
+                    <p class="notification">-</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <p class="notification">-</p>
+                  </td>
+                  <td>
+                    <p class="notification is-success">widescreen-only</p>
+                  </td>
+                  <td>
+                    <p class="notification">-</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <p class="notification is-success">touch</p>
+                  </td>
+                  <td colspan="3">
+                    <p class="notification">-</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <p class="notification is-success">until-widescreen</p>
+                  </td>
+                  <td colspan="2">
+                    <p class="notification">-</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4">
+                    <p class="notification is-success">until-fullhd</p>
+                  </td>
+                  <td colspan="1">
+                    <p class="notification">-</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr class="hr" style="margin-bottom: 0;">
+          <h3 id="disabling-breakpoints" class="title is-4 is-spaced bd-anchor-title">
+            <span class="bd-anchor-name">
+            Disabling breakpoints
+            </span>
+            <a class="bd-anchor-link" href="#disabling-breakpoints">
+            #
+            </a>
+          </h3>
+          <div class="tags has-addons">
+            <span class="tag">Since</span>
+            <span class="tag is-info">0.7.0</span>
+          </div>
+          <div class="content">
+            <p>
+              By default, the <code>$widescreen</code> and <code>$fullhd</code> breakpoints are <strong>enabled</strong>. You can disable them by setting the corresponding Sass boolean to <code>false</code>:
+            </p>
+          </div>
+          <div class="highlight-full">
+<figure class="highlight">
+  <pre><code class="language-sass" data-lang="sass">
+    <span class="c1">// Disable the widescreen breakpoint</span>
+    <span class="nv">$widescreen-enabled</span><span class="p">:</span> <span class="bp">false</span>
+    <span class="c1">// Disable the fullhd breakpoint
+    </span><span class="nv">$fullhd-enabled</span><span class="p">:</span> <span class="bp">false</span>
+  </code></pre>
+</figure>
+          </div>
+          <hr class="hr" style="margin-bottom: 0;">
+          <h3 id="variables" class="title is-4 is-spaced bd-anchor-title">
+            <span class="bd-anchor-name">
+            Variables
+            </span>
+            <a class="bd-anchor-link" href="#variables">
+            #
+            </a>
+          </h3>
+          <div class="content">
+            <p>These are <a href="" target="_blank">variables</a> with a value that <strong>references</strong> another variable.</p>
+          </div>
+          <div class="table-container">
+            <table class="table is-bordered">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Type</th>
+                  <th>Default value</th>
+                  <th>Computed value</th>
+                </tr>
+              </thead>
+              <tfoot>
+                <tr>
+                  <th>Name</th>
+                  <th>Type</th>
+                  <th>Default value</th>
+                  <th>Computed value</th>
+                </tr>
+              </tfoot>
+              <tbody>
+                <tr>
+                  <td >
+                    <code style="white-space: nowrap;">$gap</code>
+                  </td>
+                  <td>
+                    <small class="tag">
+                    size
+                    </small>
+                  </td>
+                  <td>
+                    <code>32px</code>
+                  </td>
+                  <td>
+                  </td>
+                </tr>
+                <tr>
+                  <td >
+                    <code style="white-space: nowrap;">$tablet</code>
+                  </td>
+                  <td>
+                    <small class="tag">
+                    size
+                    </small>
+                  </td>
+                  <td>
+                    <code>769px</code>
+                  </td>
+                  <td>
+                  </td>
+                </tr>
+                <tr>
+                  <td >
+                    <code style="white-space: nowrap;">$desktop</code>
+                  </td>
+                  <td>
+                    <small class="tag">
+                    computed
+                    </small>
+                  </td>
+                  <td>
+                    <code>960px + (2 * $gap)</code>
+                  </td>
+                  <td>
+                  </td>
+                </tr>
+                <tr>
+                  <td >
+                    <code style="white-space: nowrap;">$widescreen</code>
+                  </td>
+                  <td>
+                    <small class="tag">
+                    computed
+                    </small>
+                  </td>
+                  <td>
+                    <code>1152px + (2 * $gap)</code>
+                  </td>
+                  <td>
+                  </td>
+                </tr>
+                <tr>
+                  <td >
+                    <code style="white-space: nowrap;">$fullhd</code>
+                  </td>
+                  <td>
+                    <small class="tag">
+                    computed
+                    </small>
+                  </td>
+                  <td>
+                    <code>1344px + (2 * $gap)</code>
+                  </td>
+                  <td>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Responsiveness section -->
+    <!-- Colors section -->
+    <section id="overview-colors" class="section is-medium">
+      <div class="container">
+        <!-- Colors Title -->
+        <div class="section-title-wrapper">
+          <div class="bg-number">5</div>
+          <h2 class="title section-title has-text-centered dark-text">COLORS</h2>
+          <div class="subtitle has-text-centered is-tablet-padded">The <b>colors</b> that <b>style</b> most Bulma elements and components</div>
+        </div>
+        <!-- /Colors Title -->
+        <div class="bd-content">
+          <div class="content">
+            <p>
+              Most elements and components have color variations thanks to <strong>modifiers</strong> with syntax <code>.is-$color</code>, like <code>is-primary</code> or <code>is-dark</code>.
+            </p>
+            <p>
+              This is thanks to the <code>$colors</code> <strong>Sass map</strong>, through which Bulma cycles to grab all the colors and their inverts.
+            </p>
+          </div>
+          <div class="table-container">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Color</th>
+                  <th>Variable</th>
+                  <th>Value</th>
+                  <th>Computed value</th>
+                  <th>Invert value</th>
+                  <th>Computed invert value</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>White</strong>
+                  </td>
+                  <td>
+                    <code>$white</code>
+                  </td>
+                  <td>
+                    <code>$white</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(0, 0%, 100%);"></span>
+                    <code>hsl(0, 0%, 100%)</code>
+                  </td>
+                  <td>
+                    <code>$black</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(0, 0%, 4%);"></span>
+                    <code>hsl(0, 0%, 4%)</code>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Black</strong>
+                  </td>
+                  <td>
+                    <code>$black</code>
+                  </td>
+                  <td>
+                    <code>$black</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(0, 0%, 4%);"></span>
+                    <code>hsl(0, 0%, 4%)</code>
+                  </td>
+                  <td>
+                    <code>$white</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(0, 0%, 100%);"></span>
+                    <code>hsl(0, 0%, 100%)</code>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Light</strong>
+                  </td>
+                  <td>
+                    <code>$light</code>
+                  </td>
+                  <td>
+                    <code>$white-ter</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(0, 0%, 96%);"></span>
+                    <code>hsl(0, 0%, 96%)</code>
+                  </td>
+                  <td>
+                    <code>$grey-darker</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(0, 0%, 21%);"></span>
+                    <code>hsl(0, 0%, 21%)</code>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Dark</strong>
+                  </td>
+                  <td>
+                    <code>$dark</code>
+                  </td>
+                  <td>
+                    <code>$grey-darker</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(0, 0%, 21%);"></span>
+                    <code>hsl(0, 0%, 21%)</code>
+                  </td>
+                  <td>
+                    <code>$white-ter</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(0, 0%, 96%);"></span>
+                    <code>hsl(0, 0%, 96%)</code>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Primary</strong>
+                  </td>
+                  <td>
+                    <code>$primary</code>
+                  </td>
+                  <td>
+                    <code>$turquoise</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(171, 100%, 41%);"></span>
+                    <code>hsl(171, 100%, 41%)</code>
+                  </td>
+                  <td>
+                    <code>#fff</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: #fff;"></span>
+                    <code>#fff</code>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Link</strong>
+                  </td>
+                  <td>
+                    <code>$link</code>
+                  </td>
+                  <td>
+                    <code>$blue</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(217, 71%, 53%);"></span>
+                    <code>hsl(217, 71%, 53%)</code>
+                  </td>
+                  <td>
+                    <code>#fff</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: #fff;"></span>
+                    <code>#fff</code>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Info</strong>
+                  </td>
+                  <td>
+                    <code>$info</code>
+                  </td>
+                  <td>
+                    <code>$cyan</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(204, 86%, 53%);"></span>
+                    <code>hsl(204, 86%, 53%)</code>
+                  </td>
+                  <td>
+                    <code>#fff</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: #fff;"></span>
+                    <code>#fff</code>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Success</strong>
+                  </td>
+                  <td>
+                    <code>$success</code>
+                  </td>
+                  <td>
+                    <code>$green</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(141, 71%, 48%);"></span>
+                    <code>hsl(141, 71%, 48%)</code>
+                  </td>
+                  <td>
+                    <code>#fff</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: #fff;"></span>
+                    <code>#fff</code>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Warning</strong>
+                  </td>
+                  <td>
+                    <code>$warning</code>
+                  </td>
+                  <td>
+                    <code>$yellow</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(48, 100%, 67%);"></span>
+                    <code>hsl(48, 100%, 67%)</code>
+                  </td>
+                  <td>
+                    <code>rgba(0, 0, 0, 0.7)</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: rgba(0, 0, 0, 0.7);"></span>
+                    <code>rgba(0, 0, 0, 0.7)</code>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Danger</strong>
+                  </td>
+                  <td>
+                    <code>$danger</code>
+                  </td>
+                  <td>
+                    <code>$red</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(348, 100%, 61%);"></span>
+                    <code>hsl(348, 100%, 61%)</code>
+                  </td>
+                  <td>
+                    <code>#fff</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: #fff;"></span>
+                    <code>#fff</code>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="content">
+            <p>
+              Bulma also provides a <code>$shades</code> <strong>Sass map</strong>, that only contains shades of grey between black and white.
+            </p>
+          </div>
+          <div class="table-container">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Color</th>
+                  <th>Variable</th>
+                  <th>Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Black bis</strong>
+                  </td>
+                  <td>
+                    <code>$black-bis</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(0, 0%, 7%);"></span>
+                    <code>hsl(0, 0%, 7%)</code>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Black ter</strong>
+                  </td>
+                  <td>
+                    <code>$black-ter</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(0, 0%, 14%);"></span>
+                    <code>hsl(0, 0%, 14%)</code>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Grey darker</strong>
+                  </td>
+                  <td>
+                    <code>$grey-darker</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(0, 0%, 21%);"></span>
+                    <code>hsl(0, 0%, 21%)</code>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Grey dark</strong>
+                  </td>
+                  <td>
+                    <code>$grey-dark</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(0, 0%, 29%);"></span>
+                    <code>hsl(0, 0%, 29%)</code>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Grey light</strong>
+                  </td>
+                  <td>
+                    <code>$grey-light</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(0, 0%, 71%);"></span>
+                    <code>hsl(0, 0%, 71%)</code>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Grey lighter</strong>
+                  </td>
+                  <td>
+                    <code>$grey-lighter</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(0, 0%, 86%);"></span>
+                    <code>hsl(0, 0%, 86%)</code>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>White ter</strong>
+                  </td>
+                  <td>
+                    <code>$white-ter</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(0, 0%, 96%);"></span>
+                    <code>hsl(0, 0%, 96%)</code>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>White bis</strong>
+                  </td>
+                  <td>
+                    <code>$white-bis</code>
+                  </td>
+                  <td>
+                    <span class="bd-color" style="background: hsl(0, 0%, 98%);"></span>
+                    <code>hsl(0, 0%, 98%)</code>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Colors section -->
+    <!-- Functions section -->
+    <section id="overview-functions" class="section is-medium is-grey">
+      <div class="container">
+        <!-- Functions Title -->
+        <div class="section-title-wrapper">
+          <div class="bg-number">6</div>
+          <h2 class="title section-title has-text-centered dark-text">FUNCTIONS</h2>
+          <div class="subtitle has-text-centered is-tablet-padded">Utility functions to calculate colors and other values</div>
+        </div>
+        <!-- /Functions Title -->
+        <div class="bd-content">
+          <div class="content">
+            <p>Bulma uses 3 custom functions to help define the values and colors dynamically:</p>
+            <ul>
+              <li><code>powerNumber($number, $exp)</code>: calculates the value of a number exposed to another one. Returns a number.</li>
+              <li><code>colorLuminance($color)</code>: defines if a color is dark or light. Return a decimal number between 0 and 1 where <= 0.5 is dark and > 0.5 is light.</li>
+              <li><code>findColorInvert($color)</code>: returns either 70% transparent black or 100% opaque white depending on the luminance of the color.</li>
+            </ul>
+          </div>
+          <hr class="hr" style="margin-bottom: 0;">
+          <h3 id="the-code-findcolorinvert-code-function" class="title is-4 is-spaced bd-anchor-title">
+            <span class="bd-anchor-name">
+            The <code>findColorInvert()</code> function
+            </span>
+            <a class="bd-anchor-link" href="#the-code-findcolorinvert-code-function">
+            #
+            </a>
+          </h3>
+          <div class="content">
+            <p>The <code>findColorInvert($color)</code> function takes a <strong>color</strong> as an input, and outputs either transparent <strong>black</strong> <code>rgba(#000, 0.7)</code> or <strong>white</strong> <code>#fff</code>:</p>
+            <ul>
+              <li>if <code>colorLuminance($color) > 0.55</code>, it outputs <code>rgba(#000, 0.7)</code></li>
+              <li>otherwise, it outputs <code>#fff</code></li>
+            </ul>
+            <p>Its purpose is to guarantee a <strong>readable</strong> shade for the <em>text</em> when the input color is used as the <em>background</em>.</p>
+            <div class="table-container">
+              <table class="table is-bordered">
+                <thead>
+                  <tr>
+                    <th>color</th>
+                    <th>color luminance</th>
+                    <th>findColorInvert()</th>
+                    <th>result</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <span class="bd-color" style="background: #00d1b2;"></span>
+                      <code>#00d1b2</code>
+                    </td>
+                    <td>
+                      <code>0.52831</code>
+                    </td>
+                    <td>
+                      <span class="bd-color" style="background: #fff;"></span>
+                      <code>#fff</code>
+                    </td>
+                    <td>
+                      <a class="button" style="background: #00d1b2; border-color: #00d1b2; color: #fff;">
+                      Button
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="bd-color" style="background: #3273dc;"></span>
+                      <code>#3273dc</code>
+                    </td>
+                    <td>
+                      <code>0.23119</code>
+                    </td>
+                    <td>
+                      <span class="bd-color" style="background: #fff;"></span>
+                      <code>#fff</code>
+                    </td>
+                    <td>
+                      <a class="button" style="background: #3273dc; border-color: #3273dc; color: #fff;">
+                      Button
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="bd-color" style="background: #23d160;"></span>
+                      <code>#23d160</code>
+                    </td>
+                    <td>
+                      <code>0.51067</code>
+                    </td>
+                    <td>
+                      <span class="bd-color" style="background: #fff;"></span>
+                      <code>#fff</code>
+                    </td>
+                    <td>
+                      <a class="button" style="background: #23d160; border-color: #23d160; color: #fff;">
+                      Button
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="bd-color" style="background: #ffdd57;"></span>
+                      <code>#ffdd57</code>
+                    </td>
+                    <td>
+                      <code>0.76863</code>
+                    </td>
+                    <td>
+                      <span class="bd-color" style="background: rgba(0, 0, 0, 0.7);"></span>
+                      <code>rgba(0, 0, 0, 0.7)</code>
+                    </td>
+                    <td>
+                      <a class="button" style="background: #ffdd57; border-color: #ffdd57; color: rgba(0, 0, 0, 0.7);">
+                      Button
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="bd-color" style="background: #ff3860;"></span>
+                      <code>#ff3860</code>
+                    </td>
+                    <td>
+                      <code>0.27313</code>
+                    </td>
+                    <td>
+                      <span class="bd-color" style="background: #fff;"></span>
+                      <code>#fff</code>
+                    </td>
+                    <td>
+                      <a class="button" style="background: #ff3860; border-color: #ff3860; color: #fff;">
+                      Button
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="bd-color" style="background: #ffb3b3;"></span>
+                      <code>#ffb3b3</code>
+                    </td>
+                    <td>
+                      <code>0.61796</code>
+                    </td>
+                    <td>
+                      <span class="bd-color" style="background: rgba(0,0,0,0.7);"></span>
+                      <code>rgba(0,0,0,0.7)</code>
+                    </td>
+                    <td>
+                      <a class="button" style="background: #ffb3b3; border-color: #ffb3b3; color: rgba(0,0,0,0.7);">
+                      Button
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="bd-color" style="background: #ffbc6b;"></span>
+                      <code>#ffbc6b</code>
+                    </td>
+                    <td>
+                      <code>0.63053</code>
+                    </td>
+                    <td>
+                      <span class="bd-color" style="background: rgba(0,0,0,0.7);"></span>
+                      <code>rgba(0,0,0,0.7)</code>
+                    </td>
+                    <td>
+                      <a class="button" style="background: #ffbc6b; border-color: #ffbc6b; color: rgba(0,0,0,0.7);">
+                      Button
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="bd-color" style="background: hsl(294, 71%, 79%);"></span>
+                      <code>hsl(294, 71%, 79%)</code>
+                    </td>
+                    <td>
+                      <code>0.5529</code>
+                    </td>
+                    <td>
+                      <span class="bd-color" style="background: rgba(0,0,0,0.7);"></span>
+                      <code>rgba(0,0,0,0.7)</code>
+                    </td>
+                    <td>
+                      <a class="button" style="background: hsl(294, 71%, 79%); border-color: hsl(294, 71%, 79%); color: rgba(0,0,0,0.7);">
+                      Button
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>
+              For colors that have a luminance close to the <code>0.55</code> threshold, it can be useful to <strong>override</strong> the <code>findColorInvert()</code> function, and rather set the invert color <strong>manually.</strong>
+              <br>
+              For example, this shade of <span class="bd-color" style="background: hsl(294, 71%, 79%); float: none; height: 16px; width: 16px; margin-right: 0; vertical-align: middle;"></span> purple has a color luminance of <code>0.5529</code>. It can be preferable to set a color invert of white instead of transparent black:
+            </p>
+            <div class="table-container">
+              <table class="table is-bordered">
+                <tbody>
+                  <tr>
+                    <th>
+                      with <code>findColorInvert()</code>
+                    </th>
+                    <td>
+                      <code>$purple-invert: findColorInvert($purple)</code>
+                    </td>
+                    <td>
+                      <span class="bd-color" style="background: rgba(0,0,0,0.7);"></span>
+                      <code>rgba(0,0,0,0.7)</code>
+                    </td>
+                    <td>
+                      <a class="button" style="background: hsl(294, 71%, 79%); border-color: hsl(294, 71%, 79%); color: rgba(0,0,0,0.7);">
+                      Button
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      with manual setting
+                    </th>
+                    <td>
+                      <code>$purple-invert: #fff</code>
+                    </td>
+                    <td>
+                      <span class="bd-color" style="background: #fff;"></span>
+                      <code>#fff</code>
+                    </td>
+                    <td>
+                      <a class="button" style="background: hsl(294, 71%, 79%); border-color: hsl(294, 71%, 79%); color: #fff;">
+                      Button
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Functions section -->
+    <!-- Mixins section -->
+    <section id="overview-mixins" class="section is-medium">
+      <div class="container">
+        <!-- Mixins Title -->
+        <div class="section-title-wrapper">
+          <div class="bg-number">7</div>
+          <h2 class="title section-title has-text-centered dark-text">MIXINS</h2>
+          <div class="subtitle has-text-centered is-tablet-padded">Utility mixins for custom elements and responsive helpers</div>
+        </div>
+        <!-- /Mixins Title -->
+        <div class="bd-content">
+          <div class="table-container">
+            <table class="table is-bordered">
+              <tr>
+                <td><code>=arrow($color)</code></td>
+                <td>Creates a CSS-only down arrow. Used for the dropdown select.</td>
+              </tr>
+              <tr>
+                <td><code>=block</code></td>
+                <td>Defines a margin-bottom of 1.5rem, except when the element is the last child. Used for almost all block elements.</td>
+              </tr>
+              <tr>
+                <td><code>=clearfix</code></td>
+                <td>Adds a clearfix at the end of the element. Used for the "is-clearfix" helper.</td>
+              </tr>
+              <tr>
+                <td><code>=center($size)</code></td>
+                <td>Positions an element in the exact center of its parent. Used for the spinner in a loading button.</td>
+              </tr>
+              <tr>
+                <td><code>=delete</code></td>
+                <td>Creates a CSS-only cross. Used for the delete element in modals, messages, tags...</td>
+              </tr>
+              <tr>
+                <td><code>=fa($size, $dimensions)</code></td>
+                <td>Sets the style of a Font Awesome icon container.</td>
+              </tr>
+              <tr>
+                <td><code>=hamburger($dimensions)</code></td>
+                <td>Creates a CSS-only hamburger menu with 3 bars. Used for the "nav-toggle".</td>
+              </tr>
+              <tr>
+                <td><code>=loader</code></td>
+                <td>Creates a CSS-only loading spinner. Used for the ".loader" element, and for input and button spinners.</td>
+              </tr>
+              <tr>
+                <td><code>=overflow-touch</code></td>
+                <td>Sets the style of a container so that it keeps momentum when scrolling on iOS devices.</td>
+              </tr>
+              <tr>
+                <td><code>=overlay($offset: 0)</code></td>
+                <td>Makes the element overlay its parent container, like the transparent modal background.</td>
+              </tr>
+              <tr>
+                <td><code>=placeholder</code></td>
+                <td>Sets the styles of an input placeholder.</td>
+              </tr>
+              <tr>
+                <td><code>=unselectable</code></td>
+                <td>Turns the element unselectable. Used for buttons to prevent selection when clicking.</td>
+              </tr>
+            </table>
+          </div>
+          <div class="content">
+            <p>These mixins are already used throughout Bulma, but you can use them as well to extend your own styles.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Mixins section -->
+    <!--Footer-->
+    <footer class="footer">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-4">
+            <img class="footer-logo" src="assets/images/logo/logo-white.png" width="112" height="28" alt="">
+            <p class="footer-logo-text is-portrait-padded">
+              Lorem ipsum sit dolor amet is a dummy text used by
+              typographers and the web industry. It’s highly likely that
+              you’ve already seen it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+    <!-- Concatenated js plugins -->
+    <script src="assets/js/app.js"></script>
+    <script src="../../unpkg.com/animejs%402.2.0/anime.min.js"></script>
+    <!-- Bulkit js -->
+    <script src="assets/js/main.js"></script>
+    <script src="https://bulma.io/vendor/clipboard-1.7.1.min.js"></script>
+    <script src="https://bulma.io/vendor/js.cookie-2.1.4.min.js"></script>
+    <script src="https://bulma.io/lib/main.js?v=201909191709"></script>
+  </body>
+  <!-- Mirrored from bulkitv2.cssninja.io/one-pager-1/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Sep 2019 08:55:29 GMT -->
+</html>
